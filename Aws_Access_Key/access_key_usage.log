@@ -1,0 +1,928 @@
+2025-02-08 12:11:15 - Starting AWS Access Key Audit
+Processing user: bedrock
+  Checking key: AKIAZLVTXQTPPPAIBZUQ (Active)
+  Service: bedrock | IP: us-east-1 | Last Used: 2025-02-08T06:36:00+00:00
+Processing user: client-s3
+  Checking key: AKIAZLVTXQTPAXB6UK6W (Active)
+  Service: s3 | IP: ap-south-1 | Last Used: 2024-02-14T12:54:00+00:00
+Processing user: devops
+  Checking key: AKIAZLVTXQTPKJ7M6RGK (Active)
+  Service: sns | IP: ap-south-1 | Last Used: 2024-12-17T09:24:00+00:00
+  Checking key: AKIAZLVTXQTPF4DZPC6P (Active)
+  Service: s3 | IP: ap-south-1 | Last Used: 2024-04-18T13:53:00+00:00
+Processing user: devops-cicd-eks
+  Checking key: AKIAZLVTXQTPEXHGR4XT (Active)
+  Service: sts | IP: ap-south-1 | Last Used: 2025-02-08T06:33:00+00:00
+  Checking key: AKIAZLVTXQTPJHTLNPVJ (Active)
+  Service: s3 | IP: ap-south-1 | Last Used: 2025-02-08T00:00:00+00:00
+Processing user: devsecops
+  Checking key: AKIAZLVTXQTPIRGAMC5A (Active)
+  Service: sts | IP: ap-south-1 | Last Used: 2025-01-11T08:01:00+00:00
+  Checking key: AKIAZLVTXQTPMX2KZHQ6 (Active)
+  Service: eks | IP: ap-south-1 | Last Used: 2024-10-28T12:11:00+00:00
+Processing user: GCP-s3-access
+  Checking key: AKIAZLVTXQTPEREVSW65 (Active)
+  Service: s3 | IP: ap-south-1 | Last Used: 2025-02-08T03:04:00+00:00
+Processing user: ksb
+  Checking key: AKIAZLVTXQTPJLZ2RM2D (Active)
+  Service: rekognition | IP: ap-south-1 | Last Used: 2024-12-16T13:14:00+00:00
+  Checking key: AKIAZLVTXQTPI3YLMMOC (Active)
+  Service: rekognition | IP: us-west-2 | Last Used: 2024-12-20T09:08:00+00:00
+Processing user: runpod
+  Checking key: AKIAZLVTXQTPC3TVYODR (Active)
+  Service: s3 | IP: ap-south-1 | Last Used: 2025-02-08T06:15:00+00:00
+Processing user: runpod-v2
+  Checking key: AKIAZLVTXQTPKAF5SHPS (Active)
+  Service: s3 | IP: ap-south-1 | Last Used: 2024-08-28T13:55:00+00:00
+Processing user: test-key-rotation
+  Checking key: AKIAZLVTXQTPAFATDX6V (Active)
+  Service: N/A | IP: N/A | Last Used: Never
+Processing user: yt-download-temp-s3
+  Checking key: AKIAZLVTXQTPMNV7RH4G (Active)
+  Service: N/A | IP: N/A | Last Used: Never
+2025-02-08 12:11:57 - HTML report generated at access_key_report.html
+Audit completed successfully.
+2025-02-08 12:13:25 - Fetching list of IAM users...
+2025-02-08 12:13:26 - Processing IAM user: bedrock
+2025-02-08 12:13:28 - Checking Access Key: AKIAZLVTXQTPPPAIBZUQ for user bedrock
+2025-02-08 12:13:30 - ✅ User: bedrock | Key: AKIAZLVTXQTPPPAIBZUQ | Status: Active | Last Used: 2025-02-08T06:36:00+00:00 | Service: bedrock | IP: None
+2025-02-08 12:13:30 - Processing IAM user: client-s3
+2025-02-08 12:13:32 - Checking Access Key: AKIAZLVTXQTPAXB6UK6W for user client-s3
+2025-02-08 12:13:34 - ✅ User: client-s3 | Key: AKIAZLVTXQTPAXB6UK6W | Status: Active | Last Used: 2024-02-14T12:54:00+00:00 | Service: s3 | IP: None
+2025-02-08 12:13:34 - Processing IAM user: devops
+2025-02-08 12:13:35 - Checking Access Key: AKIAZLVTXQTPKJ7M6RGK for user devops
+2025-02-08 12:13:37 - ✅ User: devops | Key: AKIAZLVTXQTPKJ7M6RGK | Status: Active | Last Used: 2024-12-17T09:24:00+00:00 | Service: sns | IP: None
+2025-02-08 12:13:37 - Checking Access Key: AKIAZLVTXQTPF4DZPC6P for user devops
+2025-02-08 12:13:40 - ✅ User: devops | Key: AKIAZLVTXQTPF4DZPC6P | Status: Active | Last Used: 2024-04-18T13:53:00+00:00 | Service: s3 | IP: None
+2025-02-08 12:13:40 - Processing IAM user: devops-cicd-eks
+2025-02-08 12:13:41 - Checking Access Key: AKIAZLVTXQTPEXHGR4XT for user devops-cicd-eks
+2025-02-08 12:13:43 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPEXHGR4XT | Status: Active | Last Used: 2025-02-08T06:33:00+00:00 | Service: sts | IP: None
+2025-02-08 12:13:43 - Checking Access Key: AKIAZLVTXQTPJHTLNPVJ for user devops-cicd-eks
+2025-02-08 12:13:45 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPJHTLNPVJ | Status: Active | Last Used: 2025-02-08T00:00:00+00:00 | Service: s3 | IP: None
+2025-02-08 12:13:45 - Processing IAM user: devsecops
+2025-02-08 12:13:47 - Checking Access Key: AKIAZLVTXQTPIRGAMC5A for user devsecops
+2025-02-08 12:13:49 - ✅ User: devsecops | Key: AKIAZLVTXQTPIRGAMC5A | Status: Active | Last Used: 2025-01-11T08:01:00+00:00 | Service: sts | IP: None
+2025-02-08 12:13:49 - Checking Access Key: AKIAZLVTXQTPMX2KZHQ6 for user devsecops
+2025-02-08 12:13:51 - ✅ User: devsecops | Key: AKIAZLVTXQTPMX2KZHQ6 | Status: Active | Last Used: 2024-10-28T12:11:00+00:00 | Service: eks | IP: None
+2025-02-08 12:13:51 - Processing IAM user: GCP-s3-access
+2025-02-08 12:13:53 - Checking Access Key: AKIAZLVTXQTPEREVSW65 for user GCP-s3-access
+2025-02-08 12:13:55 - ✅ User: GCP-s3-access | Key: AKIAZLVTXQTPEREVSW65 | Status: Active | Last Used: 2025-02-08T03:04:00+00:00 | Service: s3 | IP: None
+2025-02-08 12:13:55 - Processing IAM user: ksb
+2025-02-08 12:13:57 - Checking Access Key: AKIAZLVTXQTPJLZ2RM2D for user ksb
+2025-02-08 12:13:59 - ✅ User: ksb | Key: AKIAZLVTXQTPJLZ2RM2D | Status: Active | Last Used: 2024-12-16T13:14:00+00:00 | Service: rekognition | IP: None
+2025-02-08 12:13:59 - Checking Access Key: AKIAZLVTXQTPI3YLMMOC for user ksb
+2025-02-08 12:14:01 - ✅ User: ksb | Key: AKIAZLVTXQTPI3YLMMOC | Status: Active | Last Used: 2024-12-20T09:08:00+00:00 | Service: rekognition | IP: None
+2025-02-08 12:14:01 - Processing IAM user: runpod
+2025-02-08 12:14:02 - Checking Access Key: AKIAZLVTXQTPC3TVYODR for user runpod
+2025-02-08 12:14:04 - ✅ User: runpod | Key: AKIAZLVTXQTPC3TVYODR | Status: Active | Last Used: 2025-02-08T06:15:00+00:00 | Service: s3 | IP: None
+2025-02-08 12:14:04 - Processing IAM user: runpod-v2
+2025-02-08 12:14:06 - Checking Access Key: AKIAZLVTXQTPKAF5SHPS for user runpod-v2
+2025-02-08 12:14:08 - ✅ User: runpod-v2 | Key: AKIAZLVTXQTPKAF5SHPS | Status: Active | Last Used: 2024-08-28T13:55:00+00:00 | Service: s3 | IP: None
+2025-02-08 12:14:08 - Processing IAM user: test-key-rotation
+2025-02-08 12:14:09 - Checking Access Key: AKIAZLVTXQTPAFATDX6V for user test-key-rotation
+2025-02-08 12:14:11 - ✅ User: test-key-rotation | Key: AKIAZLVTXQTPAFATDX6V | Status: Active | Last Used: None | Service: N/A | IP: None
+2025-02-08 12:14:11 - Processing IAM user: yt-download-temp-s3
+2025-02-08 12:14:13 - Checking Access Key: AKIAZLVTXQTPMNV7RH4G for user yt-download-temp-s3
+2025-02-08 12:14:15 - ✅ User: yt-download-temp-s3 | Key: AKIAZLVTXQTPMNV7RH4G | Status: Active | Last Used: None | Service: N/A | IP: None
+2025-02-08 12:14:15 - Generating HTML report...
+2025-02-08 12:14:15 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-08 12:20:16 - Fetching list of IAM users...
+2025-02-08 12:20:18 - Processing IAM user: bedrock
+2025-02-08 12:20:19 - Checking Access Key: AKIAZLVTXQTPPPAIBZUQ for user bedrock
+2025-02-08 12:20:22 - ✅ User: bedrock | Key: AKIAZLVTXQTPPPAIBZUQ | Status: Active | Last Used: 2025-02-08T06:41:00+00:00 | Service: bedrock | IP: None
+2025-02-08 12:20:22 - Processing IAM user: client-s3
+2025-02-08 12:20:23 - Checking Access Key: AKIAZLVTXQTPAXB6UK6W for user client-s3
+2025-02-08 12:20:25 - ✅ User: client-s3 | Key: AKIAZLVTXQTPAXB6UK6W | Status: Active | Last Used: 2024-02-14T12:54:00+00:00 | Service: s3 | IP: None
+2025-02-08 12:20:25 - Processing IAM user: devops
+2025-02-08 12:20:27 - Checking Access Key: AKIAZLVTXQTPKJ7M6RGK for user devops
+2025-02-08 12:20:29 - ✅ User: devops | Key: AKIAZLVTXQTPKJ7M6RGK | Status: Active | Last Used: 2024-12-17T09:24:00+00:00 | Service: sns | IP: None
+2025-02-08 12:20:29 - Checking Access Key: AKIAZLVTXQTPF4DZPC6P for user devops
+2025-02-08 12:20:31 - ✅ User: devops | Key: AKIAZLVTXQTPF4DZPC6P | Status: Active | Last Used: 2024-04-18T13:53:00+00:00 | Service: s3 | IP: None
+2025-02-08 12:20:31 - Processing IAM user: devops-cicd-eks
+2025-02-08 12:20:33 - Checking Access Key: AKIAZLVTXQTPEXHGR4XT for user devops-cicd-eks
+2025-02-08 12:20:35 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPEXHGR4XT | Status: Active | Last Used: 2025-02-08T06:33:00+00:00 | Service: sts | IP: None
+2025-02-08 12:20:35 - Checking Access Key: AKIAZLVTXQTPJHTLNPVJ for user devops-cicd-eks
+2025-02-08 12:20:37 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPJHTLNPVJ | Status: Active | Last Used: 2025-02-08T00:00:00+00:00 | Service: s3 | IP: None
+2025-02-08 12:20:37 - Processing IAM user: devsecops
+2025-02-08 12:20:38 - Checking Access Key: AKIAZLVTXQTPIRGAMC5A for user devsecops
+2025-02-08 12:20:40 - ✅ User: devsecops | Key: AKIAZLVTXQTPIRGAMC5A | Status: Active | Last Used: 2025-01-11T08:01:00+00:00 | Service: sts | IP: None
+2025-02-08 12:20:40 - Checking Access Key: AKIAZLVTXQTPMX2KZHQ6 for user devsecops
+2025-02-08 12:20:43 - ✅ User: devsecops | Key: AKIAZLVTXQTPMX2KZHQ6 | Status: Active | Last Used: 2024-10-28T12:11:00+00:00 | Service: eks | IP: None
+2025-02-08 12:20:43 - Processing IAM user: GCP-s3-access
+2025-02-08 12:20:44 - Checking Access Key: AKIAZLVTXQTPEREVSW65 for user GCP-s3-access
+2025-02-08 12:20:46 - ✅ User: GCP-s3-access | Key: AKIAZLVTXQTPEREVSW65 | Status: Active | Last Used: 2025-02-08T03:04:00+00:00 | Service: s3 | IP: None
+2025-02-08 12:20:46 - Processing IAM user: ksb
+2025-02-08 12:20:48 - Checking Access Key: AKIAZLVTXQTPJLZ2RM2D for user ksb
+2025-02-08 12:20:50 - ✅ User: ksb | Key: AKIAZLVTXQTPJLZ2RM2D | Status: Active | Last Used: 2024-12-16T13:14:00+00:00 | Service: rekognition | IP: None
+2025-02-08 12:20:50 - Checking Access Key: AKIAZLVTXQTPI3YLMMOC for user ksb
+2025-02-08 12:20:52 - ✅ User: ksb | Key: AKIAZLVTXQTPI3YLMMOC | Status: Active | Last Used: 2024-12-20T09:08:00+00:00 | Service: rekognition | IP: None
+2025-02-08 12:20:52 - Processing IAM user: runpod
+2025-02-08 12:20:53 - Checking Access Key: AKIAZLVTXQTPC3TVYODR for user runpod
+2025-02-08 12:20:55 - ✅ User: runpod | Key: AKIAZLVTXQTPC3TVYODR | Status: Active | Last Used: 2025-02-08T06:47:00+00:00 | Service: s3 | IP: None
+2025-02-08 12:20:55 - Processing IAM user: runpod-v2
+2025-02-08 12:20:57 - Checking Access Key: AKIAZLVTXQTPKAF5SHPS for user runpod-v2
+2025-02-08 12:20:59 - ✅ User: runpod-v2 | Key: AKIAZLVTXQTPKAF5SHPS | Status: Active | Last Used: 2024-08-28T13:55:00+00:00 | Service: s3 | IP: None
+2025-02-08 12:20:59 - Processing IAM user: test-key-rotation
+2025-02-08 12:21:00 - Checking Access Key: AKIAZLVTXQTPAFATDX6V for user test-key-rotation
+2025-02-08 12:21:02 - ✅ User: test-key-rotation | Key: AKIAZLVTXQTPAFATDX6V | Status: Active | Last Used: Never Used | Service: N/A | IP: None
+2025-02-08 12:21:02 - Processing IAM user: yt-download-temp-s3
+2025-02-08 12:21:04 - Checking Access Key: AKIAZLVTXQTPMNV7RH4G for user yt-download-temp-s3
+2025-02-08 12:21:06 - ✅ User: yt-download-temp-s3 | Key: AKIAZLVTXQTPMNV7RH4G | Status: Active | Last Used: Never Used | Service: N/A | IP: None
+2025-02-08 12:21:06 - Generating HTML report...
+2025-02-08 12:21:06 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-08 12:23:44 - Fetching list of IAM users...
+2025-02-08 12:23:45 - Processing IAM user: bedrock
+2025-02-08 12:23:47 - Checking Access Key: AKIAZLVTXQTPPPAIBZUQ for user bedrock
+2025-02-08 12:23:49 - ✅ User: bedrock | Key: AKIAZLVTXQTPPPAIBZUQ | Status: Active | Last Used: 2025-02-08T06:41:00+00:00 | Service: bedrock | IP: None
+2025-02-08 12:23:49 - Processing IAM user: client-s3
+2025-02-08 12:23:51 - Checking Access Key: AKIAZLVTXQTPAXB6UK6W for user client-s3
+2025-02-08 12:23:53 - ✅ User: client-s3 | Key: AKIAZLVTXQTPAXB6UK6W | Status: Active | Last Used: 2024-02-14T12:54:00+00:00 | Service: s3 | IP: None
+2025-02-08 12:23:53 - Processing IAM user: devops
+2025-02-08 12:23:54 - Checking Access Key: AKIAZLVTXQTPKJ7M6RGK for user devops
+2025-02-08 12:23:56 - ✅ User: devops | Key: AKIAZLVTXQTPKJ7M6RGK | Status: Active | Last Used: 2024-12-17T09:24:00+00:00 | Service: sns | IP: None
+2025-02-08 12:23:56 - Checking Access Key: AKIAZLVTXQTPF4DZPC6P for user devops
+2025-02-08 12:23:58 - ✅ User: devops | Key: AKIAZLVTXQTPF4DZPC6P | Status: Active | Last Used: 2024-04-18T13:53:00+00:00 | Service: s3 | IP: None
+2025-02-08 12:23:58 - Processing IAM user: devops-cicd-eks
+2025-02-08 12:24:00 - Checking Access Key: AKIAZLVTXQTPEXHGR4XT for user devops-cicd-eks
+2025-02-08 12:24:02 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPEXHGR4XT | Status: Active | Last Used: 2025-02-08T06:33:00+00:00 | Service: sts | IP: None
+2025-02-08 12:24:02 - Checking Access Key: AKIAZLVTXQTPJHTLNPVJ for user devops-cicd-eks
+2025-02-08 12:24:04 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPJHTLNPVJ | Status: Active | Last Used: 2025-02-08T00:00:00+00:00 | Service: s3 | IP: None
+2025-02-08 12:24:04 - Processing IAM user: devsecops
+2025-02-08 12:24:06 - Checking Access Key: AKIAZLVTXQTPIRGAMC5A for user devsecops
+2025-02-08 12:24:09 - ✅ User: devsecops | Key: AKIAZLVTXQTPIRGAMC5A | Status: Active | Last Used: 2025-01-11T08:01:00+00:00 | Service: sts | IP: None
+2025-02-08 12:24:09 - Checking Access Key: AKIAZLVTXQTPMX2KZHQ6 for user devsecops
+2025-02-08 12:24:11 - ✅ User: devsecops | Key: AKIAZLVTXQTPMX2KZHQ6 | Status: Active | Last Used: 2024-10-28T12:11:00+00:00 | Service: eks | IP: None
+2025-02-08 12:24:11 - Processing IAM user: GCP-s3-access
+2025-02-08 12:24:12 - Checking Access Key: AKIAZLVTXQTPEREVSW65 for user GCP-s3-access
+2025-02-08 12:24:14 - ✅ User: GCP-s3-access | Key: AKIAZLVTXQTPEREVSW65 | Status: Active | Last Used: 2025-02-08T03:04:00+00:00 | Service: s3 | IP: None
+2025-02-08 12:24:14 - Processing IAM user: ksb
+2025-02-08 12:24:16 - Checking Access Key: AKIAZLVTXQTPJLZ2RM2D for user ksb
+2025-02-08 12:24:18 - ✅ User: ksb | Key: AKIAZLVTXQTPJLZ2RM2D | Status: Active | Last Used: 2024-12-16T13:14:00+00:00 | Service: rekognition | IP: None
+2025-02-08 12:24:18 - Checking Access Key: AKIAZLVTXQTPI3YLMMOC for user ksb
+2025-02-08 12:24:20 - ✅ User: ksb | Key: AKIAZLVTXQTPI3YLMMOC | Status: Active | Last Used: 2024-12-20T09:08:00+00:00 | Service: rekognition | IP: None
+2025-02-08 12:24:20 - Processing IAM user: runpod
+2025-02-08 12:24:21 - Checking Access Key: AKIAZLVTXQTPC3TVYODR for user runpod
+2025-02-08 12:24:23 - ✅ User: runpod | Key: AKIAZLVTXQTPC3TVYODR | Status: Active | Last Used: 2025-02-08T06:47:00+00:00 | Service: s3 | IP: None
+2025-02-08 12:24:23 - Processing IAM user: runpod-v2
+2025-02-08 12:24:25 - Checking Access Key: AKIAZLVTXQTPKAF5SHPS for user runpod-v2
+2025-02-08 12:24:27 - ✅ User: runpod-v2 | Key: AKIAZLVTXQTPKAF5SHPS | Status: Active | Last Used: 2024-08-28T13:55:00+00:00 | Service: s3 | IP: None
+2025-02-08 12:24:27 - Processing IAM user: test-key-rotation
+2025-02-08 12:24:28 - Checking Access Key: AKIAZLVTXQTPAFATDX6V for user test-key-rotation
+2025-02-08 12:24:30 - ✅ User: test-key-rotation | Key: AKIAZLVTXQTPAFATDX6V | Status: Active | Last Used: Never Used | Service: N/A | IP: None
+2025-02-08 12:24:30 - Processing IAM user: yt-download-temp-s3
+2025-02-08 12:24:32 - Checking Access Key: AKIAZLVTXQTPMNV7RH4G for user yt-download-temp-s3
+2025-02-08 12:24:34 - ✅ User: yt-download-temp-s3 | Key: AKIAZLVTXQTPMNV7RH4G | Status: Active | Last Used: Never Used | Service: N/A | IP: None
+2025-02-08 12:24:34 - Generating HTML report...
+2025-02-08 12:24:34 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-08 12:29:43 - Fetching list of IAM users...
+2025-02-08 12:29:45 - Processing IAM user: bedrock
+2025-02-08 12:29:47 - Checking Access Key: AKIAZLVTXQTPPPAIBZUQ for user bedrock
+2025-02-08 12:29:49 - ✅ User: bedrock | Key: AKIAZLVTXQTPPPAIBZUQ | Status: Active | Last Used: 2025-02-08T06:41:00+00:00 | Service: bedrock | IP: Unknown
+2025-02-08 12:29:49 - Processing IAM user: client-s3
+2025-02-08 12:29:50 - Checking Access Key: AKIAZLVTXQTPAXB6UK6W for user client-s3
+2025-02-08 12:29:52 - ✅ User: client-s3 | Key: AKIAZLVTXQTPAXB6UK6W | Status: Active | Last Used: 2024-02-14T12:54:00+00:00 | Service: s3 | IP: Unknown
+2025-02-08 12:29:52 - Processing IAM user: devops
+2025-02-08 12:29:54 - Checking Access Key: AKIAZLVTXQTPKJ7M6RGK for user devops
+2025-02-08 12:29:56 - ✅ User: devops | Key: AKIAZLVTXQTPKJ7M6RGK | Status: Active | Last Used: 2024-12-17T09:24:00+00:00 | Service: sns | IP: Unknown
+2025-02-08 12:29:56 - Checking Access Key: AKIAZLVTXQTPF4DZPC6P for user devops
+2025-02-08 12:29:58 - ✅ User: devops | Key: AKIAZLVTXQTPF4DZPC6P | Status: Active | Last Used: 2024-04-18T13:53:00+00:00 | Service: s3 | IP: Unknown
+2025-02-08 12:29:58 - Processing IAM user: devops-cicd-eks
+2025-02-08 12:29:59 - Checking Access Key: AKIAZLVTXQTPEXHGR4XT for user devops-cicd-eks
+2025-02-08 12:30:01 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPEXHGR4XT | Status: Active | Last Used: 2025-02-08T06:50:00+00:00 | Service: sts | IP: Unknown
+2025-02-08 12:30:01 - Checking Access Key: AKIAZLVTXQTPJHTLNPVJ for user devops-cicd-eks
+2025-02-08 12:30:03 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPJHTLNPVJ | Status: Active | Last Used: 2025-02-08T00:00:00+00:00 | Service: s3 | IP: Unknown
+2025-02-08 12:30:03 - Processing IAM user: devsecops
+2025-02-08 12:30:05 - Checking Access Key: AKIAZLVTXQTPIRGAMC5A for user devsecops
+2025-02-08 12:30:07 - ✅ User: devsecops | Key: AKIAZLVTXQTPIRGAMC5A | Status: Active | Last Used: 2025-01-11T08:01:00+00:00 | Service: sts | IP: Unknown
+2025-02-08 12:30:07 - Checking Access Key: AKIAZLVTXQTPMX2KZHQ6 for user devsecops
+2025-02-08 12:30:09 - ✅ User: devsecops | Key: AKIAZLVTXQTPMX2KZHQ6 | Status: Active | Last Used: 2024-10-28T12:11:00+00:00 | Service: eks | IP: Unknown
+2025-02-08 12:30:09 - Processing IAM user: GCP-s3-access
+2025-02-08 12:30:11 - Checking Access Key: AKIAZLVTXQTPEREVSW65 for user GCP-s3-access
+2025-02-08 12:30:13 - ✅ User: GCP-s3-access | Key: AKIAZLVTXQTPEREVSW65 | Status: Active | Last Used: 2025-02-08T03:04:00+00:00 | Service: s3 | IP: Unknown
+2025-02-08 12:30:13 - Processing IAM user: ksb
+2025-02-08 12:30:14 - Checking Access Key: AKIAZLVTXQTPJLZ2RM2D for user ksb
+2025-02-08 12:30:16 - ✅ User: ksb | Key: AKIAZLVTXQTPJLZ2RM2D | Status: Active | Last Used: 2024-12-16T13:14:00+00:00 | Service: rekognition | IP: Unknown
+2025-02-08 12:30:16 - Checking Access Key: AKIAZLVTXQTPI3YLMMOC for user ksb
+2025-02-08 12:30:18 - ✅ User: ksb | Key: AKIAZLVTXQTPI3YLMMOC | Status: Active | Last Used: 2024-12-20T09:08:00+00:00 | Service: rekognition | IP: Unknown
+2025-02-08 12:30:18 - Processing IAM user: runpod
+2025-02-08 12:30:20 - Checking Access Key: AKIAZLVTXQTPC3TVYODR for user runpod
+2025-02-08 12:30:22 - ✅ User: runpod | Key: AKIAZLVTXQTPC3TVYODR | Status: Active | Last Used: 2025-02-08T06:51:00+00:00 | Service: s3 | IP: Unknown
+2025-02-08 12:30:22 - Processing IAM user: runpod-v2
+2025-02-08 12:30:23 - Checking Access Key: AKIAZLVTXQTPKAF5SHPS for user runpod-v2
+2025-02-08 12:30:25 - ✅ User: runpod-v2 | Key: AKIAZLVTXQTPKAF5SHPS | Status: Active | Last Used: 2024-08-28T13:55:00+00:00 | Service: s3 | IP: Unknown
+2025-02-08 12:30:25 - Processing IAM user: test-key-rotation
+2025-02-08 12:30:27 - Checking Access Key: AKIAZLVTXQTPAFATDX6V for user test-key-rotation
+2025-02-08 12:30:29 - ✅ User: test-key-rotation | Key: AKIAZLVTXQTPAFATDX6V | Status: Active | Last Used: Never Used | Service: N/A | IP: Unknown
+2025-02-08 12:30:29 - Processing IAM user: yt-download-temp-s3
+2025-02-08 12:30:31 - Checking Access Key: AKIAZLVTXQTPMNV7RH4G for user yt-download-temp-s3
+2025-02-08 12:30:33 - ✅ User: yt-download-temp-s3 | Key: AKIAZLVTXQTPMNV7RH4G | Status: Active | Last Used: Never Used | Service: N/A | IP: Unknown
+2025-02-08 12:30:33 - Generating HTML report...
+2025-02-08 12:30:33 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-08 12:43:45 - Fetching list of IAM users...
+2025-02-08 12:43:46 - Processing IAM user: 3-tier-admin
+2025-02-08 12:43:48 - Checking Access Key: AKIAQUFLQG42ZA7PSNET for user 3-tier-admin
+2025-02-08 12:43:51 - ✅ User: 3-tier-admin | Key: AKIAQUFLQG42ZA7PSNET | Status: Active | Last Used: 2025-01-27T13:24:00+00:00 | Service: sts | IP: Unknown
+2025-02-08 12:43:51 - Processing IAM user: kartik
+2025-02-08 12:43:52 - No access keys found for user: kartik
+2025-02-08 12:43:52 - Processing IAM user: tf-user
+2025-02-08 12:43:54 - Checking Access Key: AKIAQUFLQG42RLPHJDHX for user tf-user
+2025-02-08 12:43:57 - ✅ User: tf-user | Key: AKIAQUFLQG42RLPHJDHX | Status: Active | Last Used: 2025-02-06T12:47:00+00:00 | Service: iam | IP: Unknown
+2025-02-08 12:43:57 - Checking Access Key: AKIAQUFLQG4236OZRRH3 for user tf-user
+2025-02-08 12:44:00 - ✅ User: tf-user | Key: AKIAQUFLQG4236OZRRH3 | Status: Active | Last Used: Never Used | Service: N/A | IP: Unknown
+2025-02-08 12:44:00 - Generating HTML report...
+2025-02-08 12:44:00 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-08 12:46:15 - Fetching list of IAM users...
+2025-02-08 12:46:16 - Processing IAM user: bedrock
+2025-02-08 12:46:18 - Checking Access Key: AKIAZLVTXQTPPPAIBZUQ for user bedrock
+2025-02-08 12:46:21 - ✅ User: bedrock | Key: AKIAZLVTXQTPPPAIBZUQ | Status: Active | Last Used: 2025-02-08T07:12:00+00:00 | Service: bedrock | IP: Unknown
+2025-02-08 12:46:21 - Processing IAM user: client-s3
+2025-02-08 12:46:23 - Checking Access Key: AKIAZLVTXQTPAXB6UK6W for user client-s3
+2025-02-08 12:46:26 - ✅ User: client-s3 | Key: AKIAZLVTXQTPAXB6UK6W | Status: Active | Last Used: 2024-02-14T12:54:00+00:00 | Service: s3 | IP: Unknown
+2025-02-08 12:46:26 - Processing IAM user: devops
+2025-02-08 12:46:27 - Checking Access Key: AKIAZLVTXQTPKJ7M6RGK for user devops
+2025-02-08 12:46:30 - ✅ User: devops | Key: AKIAZLVTXQTPKJ7M6RGK | Status: Active | Last Used: 2024-12-17T09:24:00+00:00 | Service: sns | IP: Unknown
+2025-02-08 12:46:30 - Checking Access Key: AKIAZLVTXQTPF4DZPC6P for user devops
+2025-02-08 12:46:33 - ✅ User: devops | Key: AKIAZLVTXQTPF4DZPC6P | Status: Active | Last Used: 2024-04-18T13:53:00+00:00 | Service: s3 | IP: Unknown
+2025-02-08 12:46:33 - Processing IAM user: devops-cicd-eks
+2025-02-08 12:46:35 - Checking Access Key: AKIAZLVTXQTPEXHGR4XT for user devops-cicd-eks
+2025-02-08 12:46:38 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPEXHGR4XT | Status: Active | Last Used: 2025-02-08T06:50:00+00:00 | Service: sts | IP: Unknown
+2025-02-08 12:46:38 - Checking Access Key: AKIAZLVTXQTPJHTLNPVJ for user devops-cicd-eks
+2025-02-08 12:46:41 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPJHTLNPVJ | Status: Active | Last Used: 2025-02-08T00:00:00+00:00 | Service: s3 | IP: Unknown
+2025-02-08 12:46:41 - Processing IAM user: devsecops
+2025-02-08 12:46:42 - Checking Access Key: AKIAZLVTXQTPIRGAMC5A for user devsecops
+2025-02-08 12:46:45 - ✅ User: devsecops | Key: AKIAZLVTXQTPIRGAMC5A | Status: Active | Last Used: 2025-01-11T08:01:00+00:00 | Service: sts | IP: Unknown
+2025-02-08 12:46:45 - Checking Access Key: AKIAZLVTXQTPMX2KZHQ6 for user devsecops
+2025-02-08 12:46:48 - ✅ User: devsecops | Key: AKIAZLVTXQTPMX2KZHQ6 | Status: Active | Last Used: 2024-10-28T12:11:00+00:00 | Service: eks | IP: Unknown
+2025-02-08 12:46:48 - Processing IAM user: GCP-s3-access
+2025-02-08 12:46:50 - Checking Access Key: AKIAZLVTXQTPEREVSW65 for user GCP-s3-access
+2025-02-08 12:46:53 - ✅ User: GCP-s3-access | Key: AKIAZLVTXQTPEREVSW65 | Status: Active | Last Used: 2025-02-08T03:04:00+00:00 | Service: s3 | IP: Unknown
+2025-02-08 12:46:53 - Processing IAM user: ksb
+2025-02-08 12:46:54 - Checking Access Key: AKIAZLVTXQTPJLZ2RM2D for user ksb
+2025-02-08 12:46:57 - ✅ User: ksb | Key: AKIAZLVTXQTPJLZ2RM2D | Status: Active | Last Used: 2024-12-16T13:14:00+00:00 | Service: rekognition | IP: Unknown
+2025-02-08 12:46:57 - Checking Access Key: AKIAZLVTXQTPI3YLMMOC for user ksb
+2025-02-08 12:47:00 - ✅ User: ksb | Key: AKIAZLVTXQTPI3YLMMOC | Status: Active | Last Used: 2024-12-20T09:08:00+00:00 | Service: rekognition | IP: Unknown
+2025-02-08 12:47:00 - Processing IAM user: runpod
+2025-02-08 12:47:02 - Checking Access Key: AKIAZLVTXQTPC3TVYODR for user runpod
+2025-02-08 12:47:05 - ✅ User: runpod | Key: AKIAZLVTXQTPC3TVYODR | Status: Active | Last Used: 2025-02-08T07:06:00+00:00 | Service: s3 | IP: Unknown
+2025-02-08 12:47:05 - Processing IAM user: runpod-v2
+2025-02-08 12:47:06 - Checking Access Key: AKIAZLVTXQTPKAF5SHPS for user runpod-v2
+2025-02-08 12:47:09 - ✅ User: runpod-v2 | Key: AKIAZLVTXQTPKAF5SHPS | Status: Active | Last Used: 2024-08-28T13:55:00+00:00 | Service: s3 | IP: Unknown
+2025-02-08 12:47:09 - Processing IAM user: test-key-rotation
+2025-02-08 12:47:12 - Checking Access Key: AKIAZLVTXQTPAFATDX6V for user test-key-rotation
+2025-02-08 12:47:15 - ✅ User: test-key-rotation | Key: AKIAZLVTXQTPAFATDX6V | Status: Active | Last Used: Never Used | Service: N/A | IP: Unknown
+2025-02-08 12:47:15 - Processing IAM user: yt-download-temp-s3
+2025-02-08 12:47:17 - Checking Access Key: AKIAZLVTXQTPMNV7RH4G for user yt-download-temp-s3
+2025-02-08 12:47:20 - ✅ User: yt-download-temp-s3 | Key: AKIAZLVTXQTPMNV7RH4G | Status: Active | Last Used: Never Used | Service: N/A | IP: Unknown
+2025-02-08 12:47:20 - Generating HTML report...
+2025-02-08 12:47:20 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-08 12:48:12 - Fetching list of IAM users...
+2025-02-08 12:48:14 - Processing IAM user: bedrock
+2025-02-08 12:48:15 - Checking Access Key: AKIAZLVTXQTPPPAIBZUQ for user bedrock
+2025-02-08 12:48:18 - ✅ User: bedrock | Key: AKIAZLVTXQTPPPAIBZUQ | Status: Active | Last Used: 2025-02-08T07:12:00+00:00 | Service: bedrock | IP: No recent usage found
+2025-02-08 12:48:18 - Processing IAM user: client-s3
+2025-02-08 12:48:20 - Checking Access Key: AKIAZLVTXQTPAXB6UK6W for user client-s3
+2025-02-08 12:48:23 - ✅ User: client-s3 | Key: AKIAZLVTXQTPAXB6UK6W | Status: Active | Last Used: 2024-02-14T12:54:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 12:48:23 - Processing IAM user: devops
+2025-02-08 12:48:25 - Checking Access Key: AKIAZLVTXQTPKJ7M6RGK for user devops
+2025-02-08 12:48:28 - ✅ User: devops | Key: AKIAZLVTXQTPKJ7M6RGK | Status: Active | Last Used: 2024-12-17T09:24:00+00:00 | Service: sns | IP: No recent usage found
+2025-02-08 12:48:28 - Checking Access Key: AKIAZLVTXQTPF4DZPC6P for user devops
+2025-02-08 12:48:31 - ✅ User: devops | Key: AKIAZLVTXQTPF4DZPC6P | Status: Active | Last Used: 2024-04-18T13:53:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 12:48:31 - Processing IAM user: devops-cicd-eks
+2025-02-08 12:48:32 - Checking Access Key: AKIAZLVTXQTPEXHGR4XT for user devops-cicd-eks
+2025-02-08 12:48:36 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPEXHGR4XT | Status: Active | Last Used: 2025-02-08T06:50:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-08 12:48:36 - Checking Access Key: AKIAZLVTXQTPJHTLNPVJ for user devops-cicd-eks
+2025-02-08 12:48:40 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPJHTLNPVJ | Status: Active | Last Used: 2025-02-08T00:00:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 12:48:40 - Processing IAM user: devsecops
+2025-02-08 12:48:42 - Checking Access Key: AKIAZLVTXQTPIRGAMC5A for user devsecops
+2025-02-08 12:48:45 - ✅ User: devsecops | Key: AKIAZLVTXQTPIRGAMC5A | Status: Active | Last Used: 2025-01-11T08:01:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-08 12:48:45 - Checking Access Key: AKIAZLVTXQTPMX2KZHQ6 for user devsecops
+2025-02-08 12:48:48 - ✅ User: devsecops | Key: AKIAZLVTXQTPMX2KZHQ6 | Status: Active | Last Used: 2024-10-28T12:11:00+00:00 | Service: eks | IP: No recent usage found
+2025-02-08 12:48:48 - Processing IAM user: GCP-s3-access
+2025-02-08 12:48:49 - Checking Access Key: AKIAZLVTXQTPEREVSW65 for user GCP-s3-access
+2025-02-08 12:48:52 - ✅ User: GCP-s3-access | Key: AKIAZLVTXQTPEREVSW65 | Status: Active | Last Used: 2025-02-08T03:04:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 12:48:52 - Processing IAM user: ksb
+2025-02-08 12:48:54 - Checking Access Key: AKIAZLVTXQTPJLZ2RM2D for user ksb
+2025-02-08 12:48:57 - ✅ User: ksb | Key: AKIAZLVTXQTPJLZ2RM2D | Status: Active | Last Used: 2024-12-16T13:14:00+00:00 | Service: rekognition | IP: No recent usage found
+2025-02-08 12:48:57 - Checking Access Key: AKIAZLVTXQTPI3YLMMOC for user ksb
+2025-02-08 12:49:00 - ✅ User: ksb | Key: AKIAZLVTXQTPI3YLMMOC | Status: Active | Last Used: 2024-12-20T09:08:00+00:00 | Service: rekognition | IP: No recent usage found
+2025-02-08 12:49:00 - Processing IAM user: runpod
+2025-02-08 12:49:02 - Checking Access Key: AKIAZLVTXQTPC3TVYODR for user runpod
+2025-02-08 12:49:05 - ✅ User: runpod | Key: AKIAZLVTXQTPC3TVYODR | Status: Active | Last Used: 2025-02-08T07:06:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 12:49:05 - Processing IAM user: runpod-v2
+2025-02-08 12:49:06 - Checking Access Key: AKIAZLVTXQTPKAF5SHPS for user runpod-v2
+2025-02-08 12:49:09 - ✅ User: runpod-v2 | Key: AKIAZLVTXQTPKAF5SHPS | Status: Active | Last Used: 2024-08-28T13:55:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 12:49:09 - Processing IAM user: test-key-rotation
+2025-02-08 12:49:11 - Checking Access Key: AKIAZLVTXQTPAFATDX6V for user test-key-rotation
+2025-02-08 12:49:14 - ✅ User: test-key-rotation | Key: AKIAZLVTXQTPAFATDX6V | Status: Active | Last Used: Never Used | Service: N/A | IP: No recent usage found
+2025-02-08 12:49:14 - Processing IAM user: yt-download-temp-s3
+2025-02-08 12:49:15 - Checking Access Key: AKIAZLVTXQTPMNV7RH4G for user yt-download-temp-s3
+2025-02-08 12:49:19 - ✅ User: yt-download-temp-s3 | Key: AKIAZLVTXQTPMNV7RH4G | Status: Active | Last Used: Never Used | Service: N/A | IP: No recent usage found
+2025-02-08 12:49:19 - Generating HTML report...
+2025-02-08 12:49:19 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-08 12:59:19 - Fetching list of IAM users...
+2025-02-08 12:59:29 - Generating HTML report...
+2025-02-08 12:59:29 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-08 13:00:55 - Fetching list of IAM users...
+2025-02-08 13:00:57 - Processing IAM user: 3-tier-admin
+2025-02-08 13:00:58 - Checking Access Key: AKIAQUFLQG42ZA7PSNET for user 3-tier-admin
+2025-02-08 13:01:02 - ✅ User: 3-tier-admin | Key: AKIAQUFLQG42ZA7PSNET | Status: Active | Last Used: 2025-01-27T13:24:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-08 13:01:02 - Processing IAM user: kartik
+2025-02-08 13:01:03 - No access keys found for user: kartik
+2025-02-08 13:01:03 - Processing IAM user: tf-user
+2025-02-08 13:01:04 - Checking Access Key: AKIAQUFLQG42RLPHJDHX for user tf-user
+2025-02-08 13:01:08 - ✅ User: tf-user | Key: AKIAQUFLQG42RLPHJDHX | Status: Active | Last Used: 2025-02-06T12:47:00+00:00 | Service: iam | IP: No recent usage found
+2025-02-08 13:01:08 - Checking Access Key: AKIAQUFLQG4236OZRRH3 for user tf-user
+2025-02-08 13:01:11 - ✅ User: tf-user | Key: AKIAQUFLQG4236OZRRH3 | Status: Active | Last Used: 2025-02-08T07:25:00+00:00 | Service: iam | IP: No recent usage found
+2025-02-08 13:01:11 - Generating HTML report...
+2025-02-08 13:01:11 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-08 13:01:43 - Fetching list of IAM users...
+2025-02-08 13:01:44 - Processing IAM user: bedrock
+2025-02-08 13:01:46 - Checking Access Key: AKIAZLVTXQTPPPAIBZUQ for user bedrock
+2025-02-08 13:01:49 - ✅ User: bedrock | Key: AKIAZLVTXQTPPPAIBZUQ | Status: Active | Last Used: 2025-02-08T07:21:00+00:00 | Service: bedrock | IP: No recent usage found
+2025-02-08 13:01:49 - Processing IAM user: client-s3
+2025-02-08 13:01:50 - Checking Access Key: AKIAZLVTXQTPAXB6UK6W for user client-s3
+2025-02-08 13:01:53 - ✅ User: client-s3 | Key: AKIAZLVTXQTPAXB6UK6W | Status: Active | Last Used: 2024-02-14T12:54:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:01:53 - Processing IAM user: devops
+2025-02-08 13:01:55 - Checking Access Key: AKIAZLVTXQTPKJ7M6RGK for user devops
+2025-02-08 13:01:58 - ✅ User: devops | Key: AKIAZLVTXQTPKJ7M6RGK | Status: Active | Last Used: 2024-12-17T09:24:00+00:00 | Service: sns | IP: No recent usage found
+2025-02-08 13:01:58 - Checking Access Key: AKIAZLVTXQTPF4DZPC6P for user devops
+2025-02-08 13:02:01 - ✅ User: devops | Key: AKIAZLVTXQTPF4DZPC6P | Status: Active | Last Used: 2024-04-18T13:53:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:02:01 - Processing IAM user: devops-cicd-eks
+2025-02-08 13:02:03 - Checking Access Key: AKIAZLVTXQTPEXHGR4XT for user devops-cicd-eks
+2025-02-08 13:02:06 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPEXHGR4XT | Status: Active | Last Used: 2025-02-08T06:50:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-08 13:02:06 - Checking Access Key: AKIAZLVTXQTPJHTLNPVJ for user devops-cicd-eks
+2025-02-08 13:02:09 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPJHTLNPVJ | Status: Active | Last Used: 2025-02-08T00:00:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:02:09 - Processing IAM user: devsecops
+2025-02-08 13:02:10 - Checking Access Key: AKIAZLVTXQTPIRGAMC5A for user devsecops
+2025-02-08 13:02:13 - ✅ User: devsecops | Key: AKIAZLVTXQTPIRGAMC5A | Status: Active | Last Used: 2025-01-11T08:01:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-08 13:02:13 - Checking Access Key: AKIAZLVTXQTPMX2KZHQ6 for user devsecops
+2025-02-08 13:02:16 - ✅ User: devsecops | Key: AKIAZLVTXQTPMX2KZHQ6 | Status: Active | Last Used: 2024-10-28T12:11:00+00:00 | Service: eks | IP: No recent usage found
+2025-02-08 13:02:16 - Processing IAM user: GCP-s3-access
+2025-02-08 13:02:18 - Checking Access Key: AKIAZLVTXQTPEREVSW65 for user GCP-s3-access
+2025-02-08 13:02:21 - ✅ User: GCP-s3-access | Key: AKIAZLVTXQTPEREVSW65 | Status: Active | Last Used: 2025-02-08T03:04:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:02:21 - Processing IAM user: ksb
+2025-02-08 13:02:23 - Checking Access Key: AKIAZLVTXQTPJLZ2RM2D for user ksb
+2025-02-08 13:02:25 - ✅ User: ksb | Key: AKIAZLVTXQTPJLZ2RM2D | Status: Active | Last Used: 2024-12-16T13:14:00+00:00 | Service: rekognition | IP: No recent usage found
+2025-02-08 13:02:25 - Checking Access Key: AKIAZLVTXQTPI3YLMMOC for user ksb
+2025-02-08 13:02:29 - ✅ User: ksb | Key: AKIAZLVTXQTPI3YLMMOC | Status: Active | Last Used: 2024-12-20T09:08:00+00:00 | Service: rekognition | IP: No recent usage found
+2025-02-08 13:02:29 - Processing IAM user: runpod
+2025-02-08 13:02:30 - Checking Access Key: AKIAZLVTXQTPC3TVYODR for user runpod
+2025-02-08 13:02:33 - ✅ User: runpod | Key: AKIAZLVTXQTPC3TVYODR | Status: Active | Last Used: 2025-02-08T07:19:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:02:33 - Processing IAM user: runpod-v2
+2025-02-08 13:02:35 - Checking Access Key: AKIAZLVTXQTPKAF5SHPS for user runpod-v2
+2025-02-08 13:02:38 - ✅ User: runpod-v2 | Key: AKIAZLVTXQTPKAF5SHPS | Status: Active | Last Used: 2024-08-28T13:55:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:02:38 - Processing IAM user: test-key-rotation
+2025-02-08 13:02:39 - Checking Access Key: AKIAZLVTXQTPAFATDX6V for user test-key-rotation
+2025-02-08 13:02:42 - ✅ User: test-key-rotation | Key: AKIAZLVTXQTPAFATDX6V | Status: Active | Last Used: Never Used | Service: N/A | IP: No recent usage found
+2025-02-08 13:02:42 - Processing IAM user: yt-download-temp-s3
+2025-02-08 13:02:44 - Checking Access Key: AKIAZLVTXQTPMNV7RH4G for user yt-download-temp-s3
+2025-02-08 13:02:47 - ✅ User: yt-download-temp-s3 | Key: AKIAZLVTXQTPMNV7RH4G | Status: Active | Last Used: Never Used | Service: N/A | IP: No recent usage found
+2025-02-08 13:02:47 - Generating HTML report...
+2025-02-08 13:02:47 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-08 13:09:09 - Fetching list of IAM users...
+2025-02-08 13:09:11 - Processing IAM user: bedrock
+2025-02-08 13:09:13 - Checking Access Key: AKIAZLVTXQTPPPAIBZUQ for user bedrock
+2025-02-08 13:09:16 - ✅ User: bedrock | Key: AKIAZLVTXQTPPPAIBZUQ | Status: Active | Last Used: 2025-02-08T07:31:00+00:00 | Service: bedrock | IP: No recent usage found
+2025-02-08 13:09:16 - Processing IAM user: client-s3
+2025-02-08 13:09:17 - Checking Access Key: AKIAZLVTXQTPAXB6UK6W for user client-s3
+2025-02-08 13:09:20 - ✅ User: client-s3 | Key: AKIAZLVTXQTPAXB6UK6W | Status: Active | Last Used: 2024-02-14T12:54:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:09:20 - Processing IAM user: devops
+2025-02-08 13:09:22 - Checking Access Key: AKIAZLVTXQTPKJ7M6RGK for user devops
+2025-02-08 13:09:25 - ✅ User: devops | Key: AKIAZLVTXQTPKJ7M6RGK | Status: Active | Last Used: 2024-12-17T09:24:00+00:00 | Service: sns | IP: No recent usage found
+2025-02-08 13:09:25 - Checking Access Key: AKIAZLVTXQTPF4DZPC6P for user devops
+2025-02-08 13:09:28 - ✅ User: devops | Key: AKIAZLVTXQTPF4DZPC6P | Status: Active | Last Used: 2024-04-18T13:53:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:09:28 - Processing IAM user: devops-cicd-eks
+2025-02-08 13:09:29 - Checking Access Key: AKIAZLVTXQTPEXHGR4XT for user devops-cicd-eks
+2025-02-08 13:09:33 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPEXHGR4XT | Status: Active | Last Used: 2025-02-08T06:50:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-08 13:09:33 - Checking Access Key: AKIAZLVTXQTPJHTLNPVJ for user devops-cicd-eks
+2025-02-08 13:09:36 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPJHTLNPVJ | Status: Active | Last Used: 2025-02-08T00:00:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:09:36 - Processing IAM user: devsecops
+2025-02-08 13:09:37 - Checking Access Key: AKIAZLVTXQTPIRGAMC5A for user devsecops
+2025-02-08 13:09:40 - ✅ User: devsecops | Key: AKIAZLVTXQTPIRGAMC5A | Status: Active | Last Used: 2025-01-11T08:01:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-08 13:09:40 - Checking Access Key: AKIAZLVTXQTPMX2KZHQ6 for user devsecops
+2025-02-08 13:09:43 - ✅ User: devsecops | Key: AKIAZLVTXQTPMX2KZHQ6 | Status: Active | Last Used: 2024-10-28T12:11:00+00:00 | Service: eks | IP: No recent usage found
+2025-02-08 13:09:43 - Processing IAM user: GCP-s3-access
+2025-02-08 13:09:45 - Checking Access Key: AKIAZLVTXQTPEREVSW65 for user GCP-s3-access
+2025-02-08 13:09:48 - ✅ User: GCP-s3-access | Key: AKIAZLVTXQTPEREVSW65 | Status: Active | Last Used: 2025-02-08T03:04:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:09:48 - Processing IAM user: ksb
+2025-02-08 13:09:49 - Checking Access Key: AKIAZLVTXQTPJLZ2RM2D for user ksb
+2025-02-08 13:09:52 - ✅ User: ksb | Key: AKIAZLVTXQTPJLZ2RM2D | Status: Active | Last Used: 2024-12-16T13:14:00+00:00 | Service: rekognition | IP: No recent usage found
+2025-02-08 13:09:52 - Checking Access Key: AKIAZLVTXQTPI3YLMMOC for user ksb
+2025-02-08 13:09:55 - ✅ User: ksb | Key: AKIAZLVTXQTPI3YLMMOC | Status: Active | Last Used: 2024-12-20T09:08:00+00:00 | Service: rekognition | IP: No recent usage found
+2025-02-08 13:09:55 - Processing IAM user: runpod
+2025-02-08 13:09:57 - Checking Access Key: AKIAZLVTXQTPC3TVYODR for user runpod
+2025-02-08 13:10:00 - ✅ User: runpod | Key: AKIAZLVTXQTPC3TVYODR | Status: Active | Last Used: 2025-02-08T07:19:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:10:00 - Processing IAM user: runpod-v2
+2025-02-08 13:10:01 - Checking Access Key: AKIAZLVTXQTPKAF5SHPS for user runpod-v2
+2025-02-08 13:10:04 - ✅ User: runpod-v2 | Key: AKIAZLVTXQTPKAF5SHPS | Status: Active | Last Used: 2024-08-28T13:55:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:10:04 - Processing IAM user: test-key-rotation
+2025-02-08 13:10:06 - Checking Access Key: AKIAZLVTXQTPAFATDX6V for user test-key-rotation
+2025-02-08 13:10:09 - ✅ User: test-key-rotation | Key: AKIAZLVTXQTPAFATDX6V | Status: Active | Last Used: Never Used | Service: N/A | IP: No recent usage found
+2025-02-08 13:10:09 - Processing IAM user: yt-download-temp-s3
+2025-02-08 13:10:10 - Checking Access Key: AKIAZLVTXQTPMNV7RH4G for user yt-download-temp-s3
+2025-02-08 13:10:13 - ✅ User: yt-download-temp-s3 | Key: AKIAZLVTXQTPMNV7RH4G | Status: Active | Last Used: Never Used | Service: N/A | IP: No recent usage found
+2025-02-08 13:10:13 - Generating HTML report...
+2025-02-08 13:10:13 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-08 13:11:48 - Fetching list of IAM users...
+2025-02-08 13:11:49 - Processing IAM user: bedrock
+2025-02-08 13:11:51 - Checking Access Key: AKIAZLVTXQTPPPAIBZUQ for user bedrock
+2025-02-08 13:11:54 - ✅ User: bedrock | Key: AKIAZLVTXQTPPPAIBZUQ | Status: Active | Last Used: 2025-02-08T07:35:00+00:00 | Service: bedrock | IP: No recent usage found
+2025-02-08 13:11:54 - Processing IAM user: client-s3
+2025-02-08 13:11:56 - Checking Access Key: AKIAZLVTXQTPAXB6UK6W for user client-s3
+2025-02-08 13:11:59 - ✅ User: client-s3 | Key: AKIAZLVTXQTPAXB6UK6W | Status: Active | Last Used: 2024-02-14T12:54:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:11:59 - Processing IAM user: devops
+2025-02-08 13:12:01 - Checking Access Key: AKIAZLVTXQTPKJ7M6RGK for user devops
+2025-02-08 13:12:04 - ✅ User: devops | Key: AKIAZLVTXQTPKJ7M6RGK | Status: Active | Last Used: 2024-12-17T09:24:00+00:00 | Service: sns | IP: No recent usage found
+2025-02-08 13:12:04 - Checking Access Key: AKIAZLVTXQTPF4DZPC6P for user devops
+2025-02-08 13:12:07 - ✅ User: devops | Key: AKIAZLVTXQTPF4DZPC6P | Status: Active | Last Used: 2024-04-18T13:53:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:12:07 - Processing IAM user: devops-cicd-eks
+2025-02-08 13:12:08 - Checking Access Key: AKIAZLVTXQTPEXHGR4XT for user devops-cicd-eks
+2025-02-08 13:12:12 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPEXHGR4XT | Status: Active | Last Used: 2025-02-08T06:50:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-08 13:12:12 - Checking Access Key: AKIAZLVTXQTPJHTLNPVJ for user devops-cicd-eks
+2025-02-08 13:12:15 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPJHTLNPVJ | Status: Active | Last Used: 2025-02-08T00:00:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:12:15 - Processing IAM user: devsecops
+2025-02-08 13:12:17 - Checking Access Key: AKIAZLVTXQTPIRGAMC5A for user devsecops
+2025-02-08 13:12:20 - ✅ User: devsecops | Key: AKIAZLVTXQTPIRGAMC5A | Status: Active | Last Used: 2025-01-11T08:01:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-08 13:12:20 - Checking Access Key: AKIAZLVTXQTPMX2KZHQ6 for user devsecops
+2025-02-08 13:12:23 - ✅ User: devsecops | Key: AKIAZLVTXQTPMX2KZHQ6 | Status: Active | Last Used: 2024-10-28T12:11:00+00:00 | Service: eks | IP: No recent usage found
+2025-02-08 13:12:23 - Processing IAM user: GCP-s3-access
+2025-02-08 13:12:25 - Checking Access Key: AKIAZLVTXQTPEREVSW65 for user GCP-s3-access
+2025-02-08 13:12:28 - ✅ User: GCP-s3-access | Key: AKIAZLVTXQTPEREVSW65 | Status: Active | Last Used: 2025-02-08T03:04:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:12:28 - Processing IAM user: ksb
+2025-02-08 13:12:29 - Checking Access Key: AKIAZLVTXQTPJLZ2RM2D for user ksb
+2025-02-08 13:12:33 - ✅ User: ksb | Key: AKIAZLVTXQTPJLZ2RM2D | Status: Active | Last Used: 2024-12-16T13:14:00+00:00 | Service: rekognition | IP: No recent usage found
+2025-02-08 13:12:33 - Checking Access Key: AKIAZLVTXQTPI3YLMMOC for user ksb
+2025-02-08 13:12:36 - ✅ User: ksb | Key: AKIAZLVTXQTPI3YLMMOC | Status: Active | Last Used: 2024-12-20T09:08:00+00:00 | Service: rekognition | IP: No recent usage found
+2025-02-08 13:12:36 - Processing IAM user: runpod
+2025-02-08 13:12:37 - Checking Access Key: AKIAZLVTXQTPC3TVYODR for user runpod
+2025-02-08 13:12:40 - ✅ User: runpod | Key: AKIAZLVTXQTPC3TVYODR | Status: Active | Last Used: 2025-02-08T07:19:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:12:40 - Processing IAM user: runpod-v2
+2025-02-08 13:12:42 - Checking Access Key: AKIAZLVTXQTPKAF5SHPS for user runpod-v2
+2025-02-08 13:12:45 - ✅ User: runpod-v2 | Key: AKIAZLVTXQTPKAF5SHPS | Status: Active | Last Used: 2024-08-28T13:55:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:12:45 - Processing IAM user: test-key-rotation
+2025-02-08 13:12:47 - Checking Access Key: AKIAZLVTXQTPAFATDX6V for user test-key-rotation
+2025-02-08 13:12:50 - ✅ User: test-key-rotation | Key: AKIAZLVTXQTPAFATDX6V | Status: Active | Last Used: Never Used | Service: N/A | IP: No recent usage found
+2025-02-08 13:12:50 - Processing IAM user: yt-download-temp-s3
+2025-02-08 13:12:51 - Checking Access Key: AKIAZLVTXQTPMNV7RH4G for user yt-download-temp-s3
+2025-02-08 13:12:54 - ✅ User: yt-download-temp-s3 | Key: AKIAZLVTXQTPMNV7RH4G | Status: Active | Last Used: Never Used | Service: N/A | IP: No recent usage found
+2025-02-08 13:12:54 - Generating HTML report...
+2025-02-08 13:12:54 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-08 13:15:20 - Fetching list of IAM users...
+2025-02-08 13:15:22 - Processing IAM user: 3-tier-admin
+2025-02-08 13:15:24 - Checking Access Key: AKIAQUFLQG42ZA7PSNET for user 3-tier-admin
+2025-02-08 13:15:27 - ✅ User: 3-tier-admin | Key: AKIAQUFLQG42ZA7PSNET | Status: Active | Last Used: 2025-01-27T13:24:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-08 13:15:27 - Processing IAM user: kartik
+2025-02-08 13:15:28 - No access keys found for user: kartik
+2025-02-08 13:15:28 - Processing IAM user: tf-user
+2025-02-08 13:15:30 - Checking Access Key: AKIAQUFLQG42RLPHJDHX for user tf-user
+2025-02-08 13:15:33 - ✅ User: tf-user | Key: AKIAQUFLQG42RLPHJDHX | Status: Active | Last Used: 2025-02-06T12:47:00+00:00 | Service: iam | IP: No recent usage found
+2025-02-08 13:15:33 - Checking Access Key: AKIAQUFLQG4236OZRRH3 for user tf-user
+2025-02-08 13:15:36 - ✅ User: tf-user | Key: AKIAQUFLQG4236OZRRH3 | Status: Active | Last Used: 2025-02-08T07:31:00+00:00 | Service: cloudtrail | IP: No recent usage found
+2025-02-08 13:15:36 - Generating HTML report...
+2025-02-08 13:15:36 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-08 13:24:01 - Fetching list of IAM users...
+2025-02-08 13:24:03 - Processing IAM user: bedrock
+2025-02-08 13:24:04 - Checking Access Key: AKIAZLVTXQTPPPAIBZUQ for user bedrock
+2025-02-08 13:24:08 - ✅ User: bedrock | Key: AKIAZLVTXQTPPPAIBZUQ | Status: Active | Last Used: 2025-02-08T07:44:00+00:00 | Service: bedrock | IP: No recent usage found
+2025-02-08 13:24:08 - Processing IAM user: client-s3
+2025-02-08 13:24:09 - Checking Access Key: AKIAZLVTXQTPAXB6UK6W for user client-s3
+2025-02-08 13:24:12 - ✅ User: client-s3 | Key: AKIAZLVTXQTPAXB6UK6W | Status: Active | Last Used: 2024-02-14T12:54:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:24:12 - Processing IAM user: devops
+2025-02-08 13:24:14 - Checking Access Key: AKIAZLVTXQTPKJ7M6RGK for user devops
+2025-02-08 13:24:17 - ✅ User: devops | Key: AKIAZLVTXQTPKJ7M6RGK | Status: Active | Last Used: 2024-12-17T09:24:00+00:00 | Service: sns | IP: No recent usage found
+2025-02-08 13:24:17 - Checking Access Key: AKIAZLVTXQTPF4DZPC6P for user devops
+2025-02-08 13:24:20 - ✅ User: devops | Key: AKIAZLVTXQTPF4DZPC6P | Status: Active | Last Used: 2024-04-18T13:53:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:24:20 - Processing IAM user: devops-cicd-eks
+2025-02-08 13:24:21 - Checking Access Key: AKIAZLVTXQTPEXHGR4XT for user devops-cicd-eks
+2025-02-08 13:24:25 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPEXHGR4XT | Status: Active | Last Used: 2025-02-08T06:50:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-08 13:24:25 - Checking Access Key: AKIAZLVTXQTPJHTLNPVJ for user devops-cicd-eks
+2025-02-08 13:24:28 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPJHTLNPVJ | Status: Active | Last Used: 2025-02-08T00:00:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:24:28 - Processing IAM user: devsecops
+2025-02-08 13:24:29 - Checking Access Key: AKIAZLVTXQTPIRGAMC5A for user devsecops
+2025-02-08 13:24:32 - ✅ User: devsecops | Key: AKIAZLVTXQTPIRGAMC5A | Status: Active | Last Used: 2025-01-11T08:01:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-08 13:24:32 - Checking Access Key: AKIAZLVTXQTPMX2KZHQ6 for user devsecops
+2025-02-08 13:24:35 - ✅ User: devsecops | Key: AKIAZLVTXQTPMX2KZHQ6 | Status: Active | Last Used: 2024-10-28T12:11:00+00:00 | Service: eks | IP: No recent usage found
+2025-02-08 13:24:35 - Processing IAM user: GCP-s3-access
+2025-02-08 13:24:37 - Checking Access Key: AKIAZLVTXQTPEREVSW65 for user GCP-s3-access
+2025-02-08 13:24:40 - ✅ User: GCP-s3-access | Key: AKIAZLVTXQTPEREVSW65 | Status: Active | Last Used: 2025-02-08T03:04:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:24:40 - Processing IAM user: ksb
+2025-02-08 13:24:41 - Checking Access Key: AKIAZLVTXQTPJLZ2RM2D for user ksb
+2025-02-08 13:24:44 - ✅ User: ksb | Key: AKIAZLVTXQTPJLZ2RM2D | Status: Active | Last Used: 2024-12-16T13:14:00+00:00 | Service: rekognition | IP: No recent usage found
+2025-02-08 13:24:44 - Checking Access Key: AKIAZLVTXQTPI3YLMMOC for user ksb
+2025-02-08 13:24:47 - ✅ User: ksb | Key: AKIAZLVTXQTPI3YLMMOC | Status: Active | Last Used: 2024-12-20T09:08:00+00:00 | Service: rekognition | IP: No recent usage found
+2025-02-08 13:24:47 - Processing IAM user: runpod
+2025-02-08 13:24:49 - Checking Access Key: AKIAZLVTXQTPC3TVYODR for user runpod
+2025-02-08 13:24:52 - ✅ User: runpod | Key: AKIAZLVTXQTPC3TVYODR | Status: Active | Last Used: 2025-02-08T07:19:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:24:52 - Processing IAM user: runpod-v2
+2025-02-08 13:24:53 - Checking Access Key: AKIAZLVTXQTPKAF5SHPS for user runpod-v2
+2025-02-08 13:24:56 - ✅ User: runpod-v2 | Key: AKIAZLVTXQTPKAF5SHPS | Status: Active | Last Used: 2024-08-28T13:55:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:24:56 - Processing IAM user: test-key-rotation
+2025-02-08 13:24:58 - Checking Access Key: AKIAZLVTXQTPAFATDX6V for user test-key-rotation
+2025-02-08 13:25:01 - ✅ User: test-key-rotation | Key: AKIAZLVTXQTPAFATDX6V | Status: Active | Last Used: Never Used | Service: N/A | IP: No recent usage found
+2025-02-08 13:25:01 - Processing IAM user: yt-download-temp-s3
+2025-02-08 13:25:03 - Checking Access Key: AKIAZLVTXQTPMNV7RH4G for user yt-download-temp-s3
+2025-02-08 13:25:05 - ✅ User: yt-download-temp-s3 | Key: AKIAZLVTXQTPMNV7RH4G | Status: Active | Last Used: Never Used | Service: N/A | IP: No recent usage found
+2025-02-08 13:25:05 - Generating HTML report...
+2025-02-08 13:25:05 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-08 13:25:48 - Fetching list of IAM users...
+2025-02-08 13:25:50 - Processing IAM user: bedrock
+2025-02-08 13:25:52 - Checking Access Key: AKIAZLVTXQTPPPAIBZUQ for user bedrock
+2025-02-08 13:25:55 - ✅ User: bedrock | Key: AKIAZLVTXQTPPPAIBZUQ | Status: Active | Last Used: 2025-02-08T07:44:00+00:00 | Service: bedrock | IP: No recent usage found
+2025-02-08 13:25:55 - Processing IAM user: client-s3
+2025-02-08 13:25:56 - Checking Access Key: AKIAZLVTXQTPAXB6UK6W for user client-s3
+2025-02-08 13:25:59 - ✅ User: client-s3 | Key: AKIAZLVTXQTPAXB6UK6W | Status: Active | Last Used: 2024-02-14T12:54:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:25:59 - Processing IAM user: devops
+2025-02-08 13:26:01 - Checking Access Key: AKIAZLVTXQTPKJ7M6RGK for user devops
+2025-02-08 13:26:04 - ✅ User: devops | Key: AKIAZLVTXQTPKJ7M6RGK | Status: Active | Last Used: 2024-12-17T09:24:00+00:00 | Service: sns | IP: No recent usage found
+2025-02-08 13:26:04 - Checking Access Key: AKIAZLVTXQTPF4DZPC6P for user devops
+2025-02-08 13:26:07 - ✅ User: devops | Key: AKIAZLVTXQTPF4DZPC6P | Status: Active | Last Used: 2024-04-18T13:53:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:26:07 - Processing IAM user: devops-cicd-eks
+2025-02-08 13:26:09 - Checking Access Key: AKIAZLVTXQTPEXHGR4XT for user devops-cicd-eks
+2025-02-08 13:26:12 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPEXHGR4XT | Status: Active | Last Used: 2025-02-08T06:50:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-08 13:26:12 - Checking Access Key: AKIAZLVTXQTPJHTLNPVJ for user devops-cicd-eks
+2025-02-08 13:26:15 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPJHTLNPVJ | Status: Active | Last Used: 2025-02-08T00:00:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:26:15 - Processing IAM user: devsecops
+2025-02-08 13:26:16 - Checking Access Key: AKIAZLVTXQTPIRGAMC5A for user devsecops
+2025-02-08 13:26:19 - ✅ User: devsecops | Key: AKIAZLVTXQTPIRGAMC5A | Status: Active | Last Used: 2025-01-11T08:01:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-08 13:26:19 - Checking Access Key: AKIAZLVTXQTPMX2KZHQ6 for user devsecops
+2025-02-08 13:26:22 - ✅ User: devsecops | Key: AKIAZLVTXQTPMX2KZHQ6 | Status: Active | Last Used: 2024-10-28T12:11:00+00:00 | Service: eks | IP: No recent usage found
+2025-02-08 13:26:22 - Processing IAM user: GCP-s3-access
+2025-02-08 13:26:24 - Checking Access Key: AKIAZLVTXQTPEREVSW65 for user GCP-s3-access
+2025-02-08 13:26:27 - ✅ User: GCP-s3-access | Key: AKIAZLVTXQTPEREVSW65 | Status: Active | Last Used: 2025-02-08T03:04:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:26:27 - Processing IAM user: ksb
+2025-02-08 13:26:29 - Checking Access Key: AKIAZLVTXQTPJLZ2RM2D for user ksb
+2025-02-08 13:26:32 - ✅ User: ksb | Key: AKIAZLVTXQTPJLZ2RM2D | Status: Active | Last Used: 2024-12-16T13:14:00+00:00 | Service: rekognition | IP: No recent usage found
+2025-02-08 13:26:32 - Checking Access Key: AKIAZLVTXQTPI3YLMMOC for user ksb
+2025-02-08 13:26:35 - ✅ User: ksb | Key: AKIAZLVTXQTPI3YLMMOC | Status: Active | Last Used: 2024-12-20T09:08:00+00:00 | Service: rekognition | IP: No recent usage found
+2025-02-08 13:26:35 - Processing IAM user: runpod
+2025-02-08 13:26:36 - Checking Access Key: AKIAZLVTXQTPC3TVYODR for user runpod
+2025-02-08 13:26:39 - ✅ User: runpod | Key: AKIAZLVTXQTPC3TVYODR | Status: Active | Last Used: 2025-02-08T07:19:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:26:39 - Processing IAM user: runpod-v2
+2025-02-08 13:26:41 - Checking Access Key: AKIAZLVTXQTPKAF5SHPS for user runpod-v2
+2025-02-08 13:26:44 - ✅ User: runpod-v2 | Key: AKIAZLVTXQTPKAF5SHPS | Status: Active | Last Used: 2024-08-28T13:55:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 13:26:44 - Processing IAM user: test-key-rotation
+2025-02-08 13:26:45 - Checking Access Key: AKIAZLVTXQTPAFATDX6V for user test-key-rotation
+2025-02-08 13:26:48 - ✅ User: test-key-rotation | Key: AKIAZLVTXQTPAFATDX6V | Status: Active | Last Used: Never Used | Service: N/A | IP: No recent usage found
+2025-02-08 13:26:48 - Processing IAM user: yt-download-temp-s3
+2025-02-08 13:26:50 - Checking Access Key: AKIAZLVTXQTPMNV7RH4G for user yt-download-temp-s3
+2025-02-08 13:26:53 - ✅ User: yt-download-temp-s3 | Key: AKIAZLVTXQTPMNV7RH4G | Status: Active | Last Used: Never Used | Service: N/A | IP: No recent usage found
+2025-02-08 13:26:53 - Generating HTML report...
+2025-02-08 13:26:53 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-08 13:28:43 - Fetching list of IAM users...
+2025-02-08 13:28:44 - Processing IAM user: 3-tier-admin
+2025-02-08 13:28:46 - Checking Access Key: AKIAQUFLQG42ZA7PSNET for user 3-tier-admin
+2025-02-08 13:28:51 - ✅ User: 3-tier-admin | Key: AKIAQUFLQG42ZA7PSNET | Status: Active | Last Used: 2025-01-27T13:24:00+00:00 | Service: sts | IP: No IP Found
+2025-02-08 13:28:51 - Processing IAM user: kartik
+2025-02-08 13:28:53 - No access keys found for user: kartik
+2025-02-08 13:28:53 - Processing IAM user: tf-user
+2025-02-08 13:28:54 - Checking Access Key: AKIAQUFLQG42RLPHJDHX for user tf-user
+2025-02-08 13:28:59 - ✅ User: tf-user | Key: AKIAQUFLQG42RLPHJDHX | Status: Active | Last Used: 2025-02-06T12:47:00+00:00 | Service: iam | IP: No IP Found
+2025-02-08 13:28:59 - Checking Access Key: AKIAQUFLQG4236OZRRH3 for user tf-user
+2025-02-08 13:29:03 - ✅ User: tf-user | Key: AKIAQUFLQG4236OZRRH3 | Status: Active | Last Used: 2025-02-08T07:49:00+00:00 | Service: cloudtrail | IP: No IP Found
+2025-02-08 13:29:03 - Generating HTML report...
+2025-02-08 13:29:03 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-08 13:29:29 - Fetching list of IAM users...
+2025-02-08 13:29:30 - Processing IAM user: bedrock
+2025-02-08 13:29:32 - Checking Access Key: AKIAZLVTXQTPPPAIBZUQ for user bedrock
+2025-02-08 13:29:37 - ✅ User: bedrock | Key: AKIAZLVTXQTPPPAIBZUQ | Status: Active | Last Used: 2025-02-08T07:48:00+00:00 | Service: bedrock | IP: No IP Found
+2025-02-08 13:29:37 - Processing IAM user: client-s3
+2025-02-08 13:29:39 - Checking Access Key: AKIAZLVTXQTPAXB6UK6W for user client-s3
+2025-02-08 13:29:43 - ✅ User: client-s3 | Key: AKIAZLVTXQTPAXB6UK6W | Status: Active | Last Used: 2024-02-14T12:54:00+00:00 | Service: s3 | IP: No IP Found
+2025-02-08 13:29:43 - Processing IAM user: devops
+2025-02-08 13:29:45 - Checking Access Key: AKIAZLVTXQTPKJ7M6RGK for user devops
+2025-02-08 13:29:50 - ✅ User: devops | Key: AKIAZLVTXQTPKJ7M6RGK | Status: Active | Last Used: 2024-12-17T09:24:00+00:00 | Service: sns | IP: No IP Found
+2025-02-08 13:29:50 - Checking Access Key: AKIAZLVTXQTPF4DZPC6P for user devops
+2025-02-08 13:29:54 - ✅ User: devops | Key: AKIAZLVTXQTPF4DZPC6P | Status: Active | Last Used: 2024-04-18T13:53:00+00:00 | Service: s3 | IP: No IP Found
+2025-02-08 13:29:54 - Processing IAM user: devops-cicd-eks
+2025-02-08 13:29:56 - Checking Access Key: AKIAZLVTXQTPEXHGR4XT for user devops-cicd-eks
+2025-02-08 13:30:00 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPEXHGR4XT | Status: Active | Last Used: 2025-02-08T06:50:00+00:00 | Service: sts | IP: No IP Found
+2025-02-08 13:30:00 - Checking Access Key: AKIAZLVTXQTPJHTLNPVJ for user devops-cicd-eks
+2025-02-08 13:30:05 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPJHTLNPVJ | Status: Active | Last Used: 2025-02-08T00:00:00+00:00 | Service: s3 | IP: No IP Found
+2025-02-08 13:30:05 - Processing IAM user: devsecops
+2025-02-08 13:30:07 - Checking Access Key: AKIAZLVTXQTPIRGAMC5A for user devsecops
+2025-02-08 13:30:11 - ✅ User: devsecops | Key: AKIAZLVTXQTPIRGAMC5A | Status: Active | Last Used: 2025-01-11T08:01:00+00:00 | Service: sts | IP: No IP Found
+2025-02-08 13:30:11 - Checking Access Key: AKIAZLVTXQTPMX2KZHQ6 for user devsecops
+2025-02-08 13:30:16 - ✅ User: devsecops | Key: AKIAZLVTXQTPMX2KZHQ6 | Status: Active | Last Used: 2024-10-28T12:11:00+00:00 | Service: eks | IP: No IP Found
+2025-02-08 13:30:16 - Processing IAM user: GCP-s3-access
+2025-02-08 13:30:18 - Checking Access Key: AKIAZLVTXQTPEREVSW65 for user GCP-s3-access
+2025-02-08 13:30:22 - ✅ User: GCP-s3-access | Key: AKIAZLVTXQTPEREVSW65 | Status: Active | Last Used: 2025-02-08T03:04:00+00:00 | Service: s3 | IP: No IP Found
+2025-02-08 13:30:22 - Processing IAM user: ksb
+2025-02-08 13:30:24 - Checking Access Key: AKIAZLVTXQTPJLZ2RM2D for user ksb
+2025-02-08 13:30:28 - ✅ User: ksb | Key: AKIAZLVTXQTPJLZ2RM2D | Status: Active | Last Used: 2024-12-16T13:14:00+00:00 | Service: rekognition | IP: No IP Found
+2025-02-08 13:30:28 - Checking Access Key: AKIAZLVTXQTPI3YLMMOC for user ksb
+2025-02-08 13:30:33 - ✅ User: ksb | Key: AKIAZLVTXQTPI3YLMMOC | Status: Active | Last Used: 2024-12-20T09:08:00+00:00 | Service: rekognition | IP: No IP Found
+2025-02-08 13:30:33 - Processing IAM user: runpod
+2025-02-08 13:30:34 - Checking Access Key: AKIAZLVTXQTPC3TVYODR for user runpod
+2025-02-08 13:30:39 - ✅ User: runpod | Key: AKIAZLVTXQTPC3TVYODR | Status: Active | Last Used: 2025-02-08T07:19:00+00:00 | Service: s3 | IP: No IP Found
+2025-02-08 13:30:39 - Processing IAM user: runpod-v2
+2025-02-08 13:30:41 - Checking Access Key: AKIAZLVTXQTPKAF5SHPS for user runpod-v2
+2025-02-08 13:30:45 - ✅ User: runpod-v2 | Key: AKIAZLVTXQTPKAF5SHPS | Status: Active | Last Used: 2024-08-28T13:55:00+00:00 | Service: s3 | IP: No IP Found
+2025-02-08 13:30:45 - Processing IAM user: test-key-rotation
+2025-02-08 13:30:47 - Checking Access Key: AKIAZLVTXQTPAFATDX6V for user test-key-rotation
+2025-02-08 13:30:51 - ✅ User: test-key-rotation | Key: AKIAZLVTXQTPAFATDX6V | Status: Active | Last Used: Never Used | Service: N/A | IP: No IP Found
+2025-02-08 13:30:51 - Processing IAM user: yt-download-temp-s3
+2025-02-08 13:30:53 - Checking Access Key: AKIAZLVTXQTPMNV7RH4G for user yt-download-temp-s3
+2025-02-08 13:30:57 - ✅ User: yt-download-temp-s3 | Key: AKIAZLVTXQTPMNV7RH4G | Status: Active | Last Used: Never Used | Service: N/A | IP: No IP Found
+2025-02-08 13:30:57 - Generating HTML report...
+2025-02-08 13:30:57 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-08 13:44:11 - Fetching list of IAM users...
+2025-02-08 13:44:12 - Processing IAM user: bedrock
+2025-02-08 13:44:14 - Checking Access Key: AKIAZLVTXQTPPPAIBZUQ for user bedrock
+2025-02-08 13:44:17 - ✅ User: bedrock | Key: AKIAZLVTXQTPPPAIBZUQ | Status: Active | Last Used: 2025-02-08T07:58:00+00:00 | Service: bedrock | IP: null
+2025-02-08 13:44:17 - Processing IAM user: client-s3
+2025-02-08 13:44:18 - Checking Access Key: AKIAZLVTXQTPAXB6UK6W for user client-s3
+2025-02-08 13:44:22 - ✅ User: client-s3 | Key: AKIAZLVTXQTPAXB6UK6W | Status: Active | Last Used: 2024-02-14T12:54:00+00:00 | Service: s3 | IP: null
+2025-02-08 13:44:22 - Processing IAM user: devops
+2025-02-08 13:44:23 - Checking Access Key: AKIAZLVTXQTPKJ7M6RGK for user devops
+2025-02-08 13:44:26 - ✅ User: devops | Key: AKIAZLVTXQTPKJ7M6RGK | Status: Active | Last Used: 2024-12-17T09:24:00+00:00 | Service: sns | IP: null
+2025-02-08 13:44:26 - Checking Access Key: AKIAZLVTXQTPF4DZPC6P for user devops
+2025-02-08 13:44:39 - Fetching list of IAM users...
+2025-02-08 13:44:40 - Processing IAM user: bedrock
+2025-02-08 13:44:42 - Checking Access Key: AKIAZLVTXQTPPPAIBZUQ for user bedrock
+2025-02-08 13:44:46 - ✅ User: bedrock | Key: AKIAZLVTXQTPPPAIBZUQ | Status: Active | Last Used: 2025-02-08T07:58:00+00:00 | Service: bedrock | IP: null
+2025-02-08 13:44:46 - Processing IAM user: client-s3
+2025-02-08 13:44:48 - Checking Access Key: AKIAZLVTXQTPAXB6UK6W for user client-s3
+2025-02-08 13:44:51 - ✅ User: client-s3 | Key: AKIAZLVTXQTPAXB6UK6W | Status: Active | Last Used: 2024-02-14T12:54:00+00:00 | Service: s3 | IP: null
+2025-02-08 13:44:51 - Processing IAM user: devops
+2025-02-08 13:44:53 - Checking Access Key: AKIAZLVTXQTPKJ7M6RGK for user devops
+2025-02-08 13:44:56 - ✅ User: devops | Key: AKIAZLVTXQTPKJ7M6RGK | Status: Active | Last Used: 2024-12-17T09:24:00+00:00 | Service: sns | IP: null
+2025-02-08 13:44:56 - Checking Access Key: AKIAZLVTXQTPF4DZPC6P for user devops
+2025-02-08 13:44:59 - ✅ User: devops | Key: AKIAZLVTXQTPF4DZPC6P | Status: Active | Last Used: 2024-04-18T13:53:00+00:00 | Service: s3 | IP: null
+2025-02-08 13:44:59 - Processing IAM user: devops-cicd-eks
+2025-02-08 13:45:01 - Checking Access Key: AKIAZLVTXQTPEXHGR4XT for user devops-cicd-eks
+2025-02-08 13:45:04 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPEXHGR4XT | Status: Active | Last Used: 2025-02-08T06:50:00+00:00 | Service: sts | IP: null
+2025-02-08 13:45:04 - Checking Access Key: AKIAZLVTXQTPJHTLNPVJ for user devops-cicd-eks
+2025-02-08 13:45:07 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPJHTLNPVJ | Status: Active | Last Used: 2025-02-08T00:00:00+00:00 | Service: s3 | IP: null
+2025-02-08 13:45:07 - Processing IAM user: devsecops
+2025-02-08 13:45:08 - Checking Access Key: AKIAZLVTXQTPIRGAMC5A for user devsecops
+2025-02-08 13:45:11 - ✅ User: devsecops | Key: AKIAZLVTXQTPIRGAMC5A | Status: Active | Last Used: 2025-01-11T08:01:00+00:00 | Service: sts | IP: null
+2025-02-08 13:45:11 - Checking Access Key: AKIAZLVTXQTPMX2KZHQ6 for user devsecops
+2025-02-08 13:45:14 - ✅ User: devsecops | Key: AKIAZLVTXQTPMX2KZHQ6 | Status: Active | Last Used: 2024-10-28T12:11:00+00:00 | Service: eks | IP: null
+2025-02-08 13:45:14 - Processing IAM user: GCP-s3-access
+2025-02-08 13:45:16 - Checking Access Key: AKIAZLVTXQTPEREVSW65 for user GCP-s3-access
+2025-02-08 13:45:19 - ✅ User: GCP-s3-access | Key: AKIAZLVTXQTPEREVSW65 | Status: Active | Last Used: 2025-02-08T03:04:00+00:00 | Service: s3 | IP: null
+2025-02-08 13:45:19 - Processing IAM user: ksb
+2025-02-08 13:45:21 - Checking Access Key: AKIAZLVTXQTPJLZ2RM2D for user ksb
+2025-02-08 13:45:24 - ✅ User: ksb | Key: AKIAZLVTXQTPJLZ2RM2D | Status: Active | Last Used: 2024-12-16T13:14:00+00:00 | Service: rekognition | IP: null
+2025-02-08 13:45:24 - Checking Access Key: AKIAZLVTXQTPI3YLMMOC for user ksb
+2025-02-08 13:45:27 - ✅ User: ksb | Key: AKIAZLVTXQTPI3YLMMOC | Status: Active | Last Used: 2024-12-20T09:08:00+00:00 | Service: rekognition | IP: null
+2025-02-08 13:45:27 - Processing IAM user: runpod
+2025-02-08 13:45:28 - Checking Access Key: AKIAZLVTXQTPC3TVYODR for user runpod
+2025-02-08 13:45:31 - ✅ User: runpod | Key: AKIAZLVTXQTPC3TVYODR | Status: Active | Last Used: 2025-02-08T07:19:00+00:00 | Service: s3 | IP: null
+2025-02-08 13:45:31 - Processing IAM user: runpod-v2
+2025-02-08 13:45:33 - Checking Access Key: AKIAZLVTXQTPKAF5SHPS for user runpod-v2
+2025-02-08 13:45:36 - ✅ User: runpod-v2 | Key: AKIAZLVTXQTPKAF5SHPS | Status: Active | Last Used: 2024-08-28T13:55:00+00:00 | Service: s3 | IP: null
+2025-02-08 13:45:36 - Processing IAM user: test-key-rotation
+2025-02-08 13:45:38 - Checking Access Key: AKIAZLVTXQTPAFATDX6V for user test-key-rotation
+2025-02-08 13:45:41 - ✅ User: test-key-rotation | Key: AKIAZLVTXQTPAFATDX6V | Status: Active | Last Used: Never Used | Service: N/A | IP: null
+2025-02-08 13:45:41 - Processing IAM user: yt-download-temp-s3
+2025-02-08 13:45:43 - No access keys found for user: yt-download-temp-s3
+2025-02-08 13:45:43 - Processing IAM user: 
+2025-02-08 13:45:43 - No access keys found for user: 
+2025-02-08 13:46:45 - Fetching list of IAM users...
+2025-02-08 13:46:47 - Processing IAM user: 3-tier-admin
+2025-02-08 13:46:48 - Checking Access Key: AKIAQUFLQG42ZA7PSNET for user 3-tier-admin
+2025-02-08 13:46:52 - ✅ User: 3-tier-admin | Key: AKIAQUFLQG42ZA7PSNET | Status: Active | Last Used: 2025-01-27T13:24:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-08 13:46:52 - Processing IAM user: kartik
+2025-02-08 13:46:53 - No access keys found for user: kartik
+2025-02-08 13:46:53 - Processing IAM user: tf-user
+2025-02-08 13:46:55 - Checking Access Key: AKIAQUFLQG42RLPHJDHX for user tf-user
+2025-02-08 13:46:58 - ✅ User: tf-user | Key: AKIAQUFLQG42RLPHJDHX | Status: Active | Last Used: 2025-02-06T12:47:00+00:00 | Service: iam | IP: No recent usage found
+2025-02-08 13:46:58 - Checking Access Key: AKIAQUFLQG4236OZRRH3 for user tf-user
+2025-02-08 13:47:01 - ✅ User: tf-user | Key: AKIAQUFLQG4236OZRRH3 | Status: Active | Last Used: 2025-02-08T08:12:00+00:00 | Service: cloudtrail | IP: No recent usage found
+2025-02-08 13:47:01 - Generating HTML report...
+2025-02-08 13:47:01 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-08 13:50:11 - Fetching list of IAM users...
+2025-02-08 13:50:13 - Processing IAM user: 3-tier-admin
+2025-02-08 13:50:15 - Checking Access Key: AKIAQUFLQG42ZA7PSNET for user 3-tier-admin
+2025-02-08 13:50:20 - ✅ User: 3-tier-admin | Key: AKIAQUFLQG42ZA7PSNET | Status: Active | Last Used: 2025-01-27T13:24:00+00:00 | Service: sts | IP: null
+2025-02-08 13:50:20 - Processing IAM user: kartik
+2025-02-08 13:50:21 - No access keys found for user: kartik
+2025-02-08 13:50:21 - Processing IAM user: tf-user
+2025-02-08 13:50:23 - Checking Access Key: AKIAQUFLQG42RLPHJDHX for user tf-user
+2025-02-08 13:50:28 - ✅ User: tf-user | Key: AKIAQUFLQG42RLPHJDHX | Status: Active | Last Used: 2025-02-06T12:47:00+00:00 | Service: iam | IP: null
+2025-02-08 13:50:28 - Checking Access Key: AKIAQUFLQG4236OZRRH3 for user tf-user
+2025-02-08 13:50:32 - ✅ User: tf-user | Key: AKIAQUFLQG4236OZRRH3 | Status: Active | Last Used: 2025-02-08T08:16:00+00:00 | Service: cloudtrail | IP: null
+2025-02-08 13:50:32 - Generating HTML report...
+2025-02-08 13:50:32 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-08 13:51:11 - ❌ AWS credentials not configured or missing permissions.
+2025-02-08 13:51:55 - Fetching list of IAM users...
+2025-02-08 13:51:56 - Processing IAM user: bedrock
+2025-02-08 13:51:58 - Checking Access Key: AKIAZLVTXQTPPPAIBZUQ for user bedrock
+2025-02-08 13:52:03 - ✅ User: bedrock | Key: AKIAZLVTXQTPPPAIBZUQ | Status: Active | Last Used: 2025-02-08T07:58:00+00:00 | Service: bedrock | IP: null
+2025-02-08 13:52:03 - Processing IAM user: client-s3
+2025-02-08 13:52:04 - Checking Access Key: AKIAZLVTXQTPAXB6UK6W for user client-s3
+2025-02-08 13:52:09 - ✅ User: client-s3 | Key: AKIAZLVTXQTPAXB6UK6W | Status: Active | Last Used: 2024-02-14T12:54:00+00:00 | Service: s3 | IP: null
+2025-02-08 13:52:09 - Processing IAM user: devops
+2025-02-08 13:52:10 - Checking Access Key: AKIAZLVTXQTPKJ7M6RGK for user devops
+2025-02-08 13:52:15 - ✅ User: devops | Key: AKIAZLVTXQTPKJ7M6RGK | Status: Active | Last Used: 2024-12-17T09:24:00+00:00 | Service: sns | IP: null
+2025-02-08 13:52:15 - Checking Access Key: AKIAZLVTXQTPF4DZPC6P for user devops
+2025-02-08 13:52:19 - ✅ User: devops | Key: AKIAZLVTXQTPF4DZPC6P | Status: Active | Last Used: 2024-04-18T13:53:00+00:00 | Service: s3 | IP: null
+2025-02-08 13:52:19 - Processing IAM user: devops-cicd-eks
+2025-02-08 13:52:21 - Checking Access Key: AKIAZLVTXQTPEXHGR4XT for user devops-cicd-eks
+2025-02-08 13:52:26 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPEXHGR4XT | Status: Active | Last Used: 2025-02-08T06:50:00+00:00 | Service: sts | IP: null
+2025-02-08 13:52:26 - Checking Access Key: AKIAZLVTXQTPJHTLNPVJ for user devops-cicd-eks
+2025-02-08 13:52:30 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPJHTLNPVJ | Status: Active | Last Used: 2025-02-08T00:00:00+00:00 | Service: s3 | IP: null
+2025-02-08 13:52:30 - Processing IAM user: devsecops
+2025-02-08 13:52:32 - Checking Access Key: AKIAZLVTXQTPIRGAMC5A for user devsecops
+2025-02-08 13:52:36 - ✅ User: devsecops | Key: AKIAZLVTXQTPIRGAMC5A | Status: Active | Last Used: 2025-01-11T08:01:00+00:00 | Service: sts | IP: null
+2025-02-08 13:52:36 - Checking Access Key: AKIAZLVTXQTPMX2KZHQ6 for user devsecops
+2025-02-08 13:52:41 - ✅ User: devsecops | Key: AKIAZLVTXQTPMX2KZHQ6 | Status: Active | Last Used: 2024-10-28T12:11:00+00:00 | Service: eks | IP: null
+2025-02-08 13:52:41 - Processing IAM user: GCP-s3-access
+2025-02-08 13:52:43 - Checking Access Key: AKIAZLVTXQTPEREVSW65 for user GCP-s3-access
+2025-02-08 13:52:48 - ✅ User: GCP-s3-access | Key: AKIAZLVTXQTPEREVSW65 | Status: Active | Last Used: 2025-02-08T03:04:00+00:00 | Service: s3 | IP: null
+2025-02-08 13:52:48 - Processing IAM user: ksb
+2025-02-08 13:52:50 - Checking Access Key: AKIAZLVTXQTPJLZ2RM2D for user ksb
+2025-02-08 13:52:55 - ✅ User: ksb | Key: AKIAZLVTXQTPJLZ2RM2D | Status: Active | Last Used: 2024-12-16T13:14:00+00:00 | Service: rekognition | IP: null
+2025-02-08 13:52:55 - Checking Access Key: AKIAZLVTXQTPI3YLMMOC for user ksb
+2025-02-08 13:52:59 - ✅ User: ksb | Key: AKIAZLVTXQTPI3YLMMOC | Status: Active | Last Used: 2024-12-20T09:08:00+00:00 | Service: rekognition | IP: null
+2025-02-08 13:52:59 - Processing IAM user: runpod
+2025-02-08 13:53:01 - Checking Access Key: AKIAZLVTXQTPC3TVYODR for user runpod
+2025-02-08 13:53:06 - ✅ User: runpod | Key: AKIAZLVTXQTPC3TVYODR | Status: Active | Last Used: 2025-02-08T08:17:00+00:00 | Service: s3 | IP: null
+2025-02-08 13:53:06 - Processing IAM user: runpod-v2
+2025-02-08 13:53:07 - Checking Access Key: AKIAZLVTXQTPKAF5SHPS for user runpod-v2
+2025-02-08 13:53:12 - ✅ User: runpod-v2 | Key: AKIAZLVTXQTPKAF5SHPS | Status: Active | Last Used: 2024-08-28T13:55:00+00:00 | Service: s3 | IP: null
+2025-02-08 13:53:12 - Processing IAM user: test-key-rotation
+2025-02-08 13:53:13 - Checking Access Key: AKIAZLVTXQTPAFATDX6V for user test-key-rotation
+2025-02-08 13:53:18 - ✅ User: test-key-rotation | Key: AKIAZLVTXQTPAFATDX6V | Status: Active | Last Used: Never Used | Service: N/A | IP: null
+2025-02-08 13:53:18 - Processing IAM user: yt-download-temp-s3
+2025-02-08 13:53:20 - Checking Access Key: AKIAZLVTXQTPMNV7RH4G for user yt-download-temp-s3
+2025-02-08 13:53:25 - ✅ User: yt-download-temp-s3 | Key: AKIAZLVTXQTPMNV7RH4G | Status: Active | Last Used: Never Used | Service: N/A | IP: null
+2025-02-08 13:53:25 - Generating HTML report...
+2025-02-08 13:53:25 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-08 14:00:34 - Fetching list of IAM users...
+2025-02-08 14:00:35 - Processing IAM user: bedrock
+2025-02-08 14:00:37 - Checking Access Key: AKIAZLVTXQTPPPAIBZUQ for user bedrock
+2025-02-08 14:00:40 - ✅ User: bedrock | Key: AKIAZLVTXQTPPPAIBZUQ | Status: Active | Last Used: 2025-02-08T08:19:00+00:00 | Service: bedrock | IP: No recent usage found
+2025-02-08 14:00:40 - Processing IAM user: client-s3
+2025-02-08 14:00:42 - Checking Access Key: AKIAZLVTXQTPAXB6UK6W for user client-s3
+2025-02-08 14:00:45 - ✅ User: client-s3 | Key: AKIAZLVTXQTPAXB6UK6W | Status: Active | Last Used: 2024-02-14T12:54:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 14:00:45 - Processing IAM user: devops
+2025-02-08 14:00:46 - Checking Access Key: AKIAZLVTXQTPKJ7M6RGK for user devops
+2025-02-08 14:00:49 - ✅ User: devops | Key: AKIAZLVTXQTPKJ7M6RGK | Status: Active | Last Used: 2024-12-17T09:24:00+00:00 | Service: sns | IP: No recent usage found
+2025-02-08 14:00:49 - Checking Access Key: AKIAZLVTXQTPF4DZPC6P for user devops
+2025-02-08 14:00:52 - ✅ User: devops | Key: AKIAZLVTXQTPF4DZPC6P | Status: Active | Last Used: 2024-04-18T13:53:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 14:00:52 - Processing IAM user: devops-cicd-eks
+2025-02-08 14:00:54 - Checking Access Key: AKIAZLVTXQTPEXHGR4XT for user devops-cicd-eks
+2025-02-08 14:00:57 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPEXHGR4XT | Status: Active | Last Used: 2025-02-08T06:50:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-08 14:00:57 - Checking Access Key: AKIAZLVTXQTPJHTLNPVJ for user devops-cicd-eks
+2025-02-08 14:01:00 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPJHTLNPVJ | Status: Active | Last Used: 2025-02-08T08:25:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 14:01:00 - Processing IAM user: devsecops
+2025-02-08 14:01:02 - Checking Access Key: AKIAZLVTXQTPIRGAMC5A for user devsecops
+2025-02-08 14:01:05 - ✅ User: devsecops | Key: AKIAZLVTXQTPIRGAMC5A | Status: Active | Last Used: 2025-01-11T08:01:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-08 14:01:05 - Checking Access Key: AKIAZLVTXQTPMX2KZHQ6 for user devsecops
+2025-02-08 14:01:08 - ✅ User: devsecops | Key: AKIAZLVTXQTPMX2KZHQ6 | Status: Active | Last Used: 2024-10-28T12:11:00+00:00 | Service: eks | IP: No recent usage found
+2025-02-08 14:01:08 - Processing IAM user: GCP-s3-access
+2025-02-08 14:01:10 - Checking Access Key: AKIAZLVTXQTPEREVSW65 for user GCP-s3-access
+2025-02-08 14:01:13 - ✅ User: GCP-s3-access | Key: AKIAZLVTXQTPEREVSW65 | Status: Active | Last Used: 2025-02-08T03:04:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 14:01:13 - Processing IAM user: ksb
+2025-02-08 14:01:14 - Checking Access Key: AKIAZLVTXQTPJLZ2RM2D for user ksb
+2025-02-08 14:01:17 - ✅ User: ksb | Key: AKIAZLVTXQTPJLZ2RM2D | Status: Active | Last Used: 2024-12-16T13:14:00+00:00 | Service: rekognition | IP: No recent usage found
+2025-02-08 14:01:17 - Checking Access Key: AKIAZLVTXQTPI3YLMMOC for user ksb
+2025-02-08 14:01:20 - ✅ User: ksb | Key: AKIAZLVTXQTPI3YLMMOC | Status: Active | Last Used: 2024-12-20T09:08:00+00:00 | Service: rekognition | IP: No recent usage found
+2025-02-08 14:01:21 - Processing IAM user: runpod
+2025-02-08 14:01:22 - Checking Access Key: AKIAZLVTXQTPC3TVYODR for user runpod
+2025-02-08 14:01:25 - ✅ User: runpod | Key: AKIAZLVTXQTPC3TVYODR | Status: Active | Last Used: 2025-02-08T08:24:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 14:01:25 - Processing IAM user: runpod-v2
+2025-02-08 14:01:27 - Checking Access Key: AKIAZLVTXQTPKAF5SHPS for user runpod-v2
+2025-02-08 14:01:30 - ✅ User: runpod-v2 | Key: AKIAZLVTXQTPKAF5SHPS | Status: Active | Last Used: 2024-08-28T13:55:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-08 14:01:30 - Processing IAM user: test-key-rotation
+2025-02-08 14:01:31 - Checking Access Key: AKIAZLVTXQTPAFATDX6V for user test-key-rotation
+2025-02-08 14:01:34 - ✅ User: test-key-rotation | Key: AKIAZLVTXQTPAFATDX6V | Status: Active | Last Used: Never Used | Service: N/A | IP: No recent usage found
+2025-02-08 14:01:34 - Processing IAM user: yt-download-temp-s3
+2025-02-08 14:01:36 - Checking Access Key: AKIAZLVTXQTPMNV7RH4G for user yt-download-temp-s3
+2025-02-08 14:01:39 - ✅ User: yt-download-temp-s3 | Key: AKIAZLVTXQTPMNV7RH4G | Status: Active | Last Used: Never Used | Service: N/A | IP: No recent usage found
+2025-02-08 14:01:39 - Generating HTML report...
+2025-02-08 14:01:39 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-12 11:09:46 - Fetching list of IAM users...
+2025-02-12 11:09:47 - Processing IAM user: bedrock
+2025-02-12 11:09:49 - Checking Access Key: AKIAZLVTXQTPPPAIBZUQ for user bedrock
+2025-02-12 11:09:52 - ✅ User: bedrock | Key: AKIAZLVTXQTPPPAIBZUQ | Status: Active | Last Used: 2025-02-12T05:32:00+00:00 | Service: bedrock | IP: No recent usage found
+2025-02-12 11:09:52 - Processing IAM user: client-s3
+2025-02-12 11:09:54 - Checking Access Key: AKIAZLVTXQTPAXB6UK6W for user client-s3
+2025-02-12 11:09:57 - ✅ User: client-s3 | Key: AKIAZLVTXQTPAXB6UK6W | Status: Active | Last Used: 2024-02-14T12:54:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-12 11:09:57 - Processing IAM user: devops
+2025-02-12 11:09:58 - Checking Access Key: AKIAZLVTXQTPKJ7M6RGK for user devops
+2025-02-12 11:10:01 - ✅ User: devops | Key: AKIAZLVTXQTPKJ7M6RGK | Status: Active | Last Used: 2024-12-17T09:24:00+00:00 | Service: sns | IP: No recent usage found
+2025-02-12 11:10:01 - Checking Access Key: AKIAZLVTXQTPF4DZPC6P for user devops
+2025-02-12 11:10:04 - ✅ User: devops | Key: AKIAZLVTXQTPF4DZPC6P | Status: Active | Last Used: 2024-04-18T13:53:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-12 11:10:04 - Processing IAM user: devops-cicd-eks
+2025-02-12 11:10:05 - Checking Access Key: AKIAZLVTXQTPEXHGR4XT for user devops-cicd-eks
+2025-02-12 11:10:08 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPEXHGR4XT | Status: Active | Last Used: 2025-02-12T05:28:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-12 11:10:08 - Checking Access Key: AKIAZLVTXQTPJHTLNPVJ for user devops-cicd-eks
+2025-02-12 11:10:11 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPJHTLNPVJ | Status: Active | Last Used: 2025-02-12T05:30:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-12 11:10:11 - Processing IAM user: devsecops
+2025-02-12 11:10:13 - Checking Access Key: AKIAZLVTXQTPIRGAMC5A for user devsecops
+2025-02-12 11:10:16 - ✅ User: devsecops | Key: AKIAZLVTXQTPIRGAMC5A | Status: Active | Last Used: 2025-01-11T08:01:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-12 11:10:16 - Checking Access Key: AKIAZLVTXQTPMX2KZHQ6 for user devsecops
+2025-02-12 11:10:19 - ✅ User: devsecops | Key: AKIAZLVTXQTPMX2KZHQ6 | Status: Active | Last Used: 2024-10-28T12:11:00+00:00 | Service: eks | IP: No recent usage found
+2025-02-12 11:10:19 - Processing IAM user: GCP-s3-access
+2025-02-12 11:10:20 - Checking Access Key: AKIAZLVTXQTPEREVSW65 for user GCP-s3-access
+2025-02-12 11:10:23 - ✅ User: GCP-s3-access | Key: AKIAZLVTXQTPEREVSW65 | Status: Active | Last Used: 2025-02-12T05:29:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-12 11:10:23 - Processing IAM user: ksb
+2025-02-12 11:10:25 - Checking Access Key: AKIAZLVTXQTPJLZ2RM2D for user ksb
+2025-02-12 11:10:28 - ✅ User: ksb | Key: AKIAZLVTXQTPJLZ2RM2D | Status: Active | Last Used: 2024-12-16T13:14:00+00:00 | Service: rekognition | IP: No recent usage found
+2025-02-12 11:10:28 - Checking Access Key: AKIAZLVTXQTPI3YLMMOC for user ksb
+2025-02-12 11:10:31 - ✅ User: ksb | Key: AKIAZLVTXQTPI3YLMMOC | Status: Active | Last Used: 2024-12-20T09:08:00+00:00 | Service: rekognition | IP: No recent usage found
+2025-02-12 11:10:31 - Processing IAM user: runpod
+2025-02-12 11:10:32 - Checking Access Key: AKIAZLVTXQTPC3TVYODR for user runpod
+2025-02-12 11:10:35 - ✅ User: runpod | Key: AKIAZLVTXQTPC3TVYODR | Status: Active | Last Used: 2025-02-12T05:37:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-12 11:10:35 - Processing IAM user: runpod-v2
+2025-02-12 11:10:37 - Checking Access Key: AKIAZLVTXQTPKAF5SHPS for user runpod-v2
+2025-02-12 11:10:40 - ✅ User: runpod-v2 | Key: AKIAZLVTXQTPKAF5SHPS | Status: Active | Last Used: 2024-08-28T13:55:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-12 11:10:40 - Processing IAM user: test-key-rotation
+2025-02-12 11:10:41 - Checking Access Key: AKIAZLVTXQTPAFATDX6V for user test-key-rotation
+2025-02-12 11:10:45 - ✅ User: test-key-rotation | Key: AKIAZLVTXQTPAFATDX6V | Status: Active | Last Used: Never Used | Service: N/A | IP: No recent usage found
+2025-02-12 11:10:45 - Processing IAM user: yt-download-temp-s3
+2025-02-12 11:10:46 - Checking Access Key: AKIAZLVTXQTPMNV7RH4G for user yt-download-temp-s3
+2025-02-12 11:10:49 - ✅ User: yt-download-temp-s3 | Key: AKIAZLVTXQTPMNV7RH4G | Status: Active | Last Used: Never Used | Service: N/A | IP: No recent usage found
+2025-02-12 11:10:49 - Generating HTML report...
+2025-02-12 11:10:49 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-12 11:17:16 - Fetching list of IAM users...
+2025-02-12 11:17:18 - Processing IAM user: bedrock
+2025-02-12 11:17:19 - Checking Access Key: AKIAZLVTXQTPPPAIBZUQ for user bedrock
+2025-02-12 11:17:23 - ✅ User: bedrock | Key: AKIAZLVTXQTPPPAIBZUQ | Status: Active | Last Used: 2025-02-12T05:41:00+00:00 | Service: bedrock | IP: No recent usage found
+2025-02-12 11:17:23 - Processing IAM user: client-s3
+2025-02-12 11:17:25 - Checking Access Key: AKIAZLVTXQTPAXB6UK6W for user client-s3
+2025-02-12 11:17:28 - ✅ User: client-s3 | Key: AKIAZLVTXQTPAXB6UK6W | Status: Active | Last Used: 2024-02-14T12:54:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-12 11:17:28 - Processing IAM user: devops
+2025-02-12 11:17:30 - Checking Access Key: AKIAZLVTXQTPKJ7M6RGK for user devops
+2025-02-12 11:17:33 - ✅ User: devops | Key: AKIAZLVTXQTPKJ7M6RGK | Status: Active | Last Used: 2024-12-17T09:24:00+00:00 | Service: sns | IP: No recent usage found
+2025-02-12 11:17:33 - Checking Access Key: AKIAZLVTXQTPF4DZPC6P for user devops
+2025-02-12 11:17:36 - ✅ User: devops | Key: AKIAZLVTXQTPF4DZPC6P | Status: Active | Last Used: 2024-04-18T13:53:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-12 11:17:36 - Processing IAM user: devops-cicd-eks
+2025-02-12 11:17:37 - Checking Access Key: AKIAZLVTXQTPEXHGR4XT for user devops-cicd-eks
+2025-02-12 11:17:40 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPEXHGR4XT | Status: Active | Last Used: 2025-02-12T05:40:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-12 11:17:40 - Checking Access Key: AKIAZLVTXQTPJHTLNPVJ for user devops-cicd-eks
+2025-02-12 11:17:43 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPJHTLNPVJ | Status: Active | Last Used: 2025-02-12T05:30:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-12 11:17:43 - Processing IAM user: devsecops
+2025-02-12 11:17:45 - Checking Access Key: AKIAZLVTXQTPIRGAMC5A for user devsecops
+2025-02-12 11:17:48 - ✅ User: devsecops | Key: AKIAZLVTXQTPIRGAMC5A | Status: Active | Last Used: 2025-01-11T08:01:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-12 11:17:48 - Checking Access Key: AKIAZLVTXQTPMX2KZHQ6 for user devsecops
+2025-02-12 11:17:50 - ✅ User: devsecops | Key: AKIAZLVTXQTPMX2KZHQ6 | Status: Active | Last Used: 2024-10-28T12:11:00+00:00 | Service: eks | IP: No recent usage found
+2025-02-12 11:17:50 - Processing IAM user: GCP-s3-access
+2025-02-12 11:17:52 - Checking Access Key: AKIAZLVTXQTPEREVSW65 for user GCP-s3-access
+2025-02-12 11:17:55 - ✅ User: GCP-s3-access | Key: AKIAZLVTXQTPEREVSW65 | Status: Active | Last Used: 2025-02-12T05:33:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-12 11:17:55 - Processing IAM user: ksb
+2025-02-12 11:17:56 - Checking Access Key: AKIAZLVTXQTPJLZ2RM2D for user ksb
+2025-02-12 11:17:59 - ✅ User: ksb | Key: AKIAZLVTXQTPJLZ2RM2D | Status: Active | Last Used: 2024-12-16T13:14:00+00:00 | Service: rekognition | IP: No recent usage found
+2025-02-12 11:17:59 - Checking Access Key: AKIAZLVTXQTPI3YLMMOC for user ksb
+2025-02-12 11:18:02 - ✅ User: ksb | Key: AKIAZLVTXQTPI3YLMMOC | Status: Active | Last Used: 2024-12-20T09:08:00+00:00 | Service: rekognition | IP: No recent usage found
+2025-02-12 11:18:02 - Processing IAM user: runpod
+2025-02-12 11:18:04 - Checking Access Key: AKIAZLVTXQTPC3TVYODR for user runpod
+2025-02-12 11:18:07 - ✅ User: runpod | Key: AKIAZLVTXQTPC3TVYODR | Status: Active | Last Used: 2025-02-12T05:42:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-12 11:18:07 - Processing IAM user: runpod-v2
+2025-02-12 11:18:08 - Checking Access Key: AKIAZLVTXQTPKAF5SHPS for user runpod-v2
+2025-02-12 11:18:11 - ✅ User: runpod-v2 | Key: AKIAZLVTXQTPKAF5SHPS | Status: Active | Last Used: 2024-08-28T13:55:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-12 11:18:11 - Processing IAM user: test-key-rotation
+2025-02-12 11:18:13 - Checking Access Key: AKIAZLVTXQTPAFATDX6V for user test-key-rotation
+2025-02-12 11:18:16 - ✅ User: test-key-rotation | Key: AKIAZLVTXQTPAFATDX6V | Status: Active | Last Used: Never Used | Service: N/A | IP: No recent usage found
+2025-02-12 11:18:16 - Processing IAM user: yt-download-temp-s3
+2025-02-12 11:18:17 - Checking Access Key: AKIAZLVTXQTPMNV7RH4G for user yt-download-temp-s3
+2025-02-12 11:18:20 - ✅ User: yt-download-temp-s3 | Key: AKIAZLVTXQTPMNV7RH4G | Status: Active | Last Used: Never Used | Service: N/A | IP: No recent usage found
+2025-02-12 11:18:20 - Generating HTML report...
+2025-02-12 11:18:20 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html
+2025-02-13 11:06:00 - Fetching list of IAM users...
+2025-02-13 11:06:02 - Processing IAM user: bedrock
+2025-02-13 11:06:03 - Checking Access Key: AKIAZLVTXQTPPPAIBZUQ for user bedrock
+2025-02-13 11:06:06 - ✅ User: bedrock | Key: AKIAZLVTXQTPPPAIBZUQ | Status: Active | Last Used: 2025-02-13T05:31:00+00:00 | Service: bedrock | IP: No recent usage found
+2025-02-13 11:06:06 - Processing IAM user: client-s3
+2025-02-13 11:06:08 - Checking Access Key: AKIAZLVTXQTPAXB6UK6W for user client-s3
+2025-02-13 11:06:11 - ✅ User: client-s3 | Key: AKIAZLVTXQTPAXB6UK6W | Status: Active | Last Used: 2024-02-14T12:54:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-13 11:06:11 - Processing IAM user: devops
+2025-02-13 11:06:12 - Checking Access Key: AKIAZLVTXQTPKJ7M6RGK for user devops
+2025-02-13 11:06:15 - ✅ User: devops | Key: AKIAZLVTXQTPKJ7M6RGK | Status: Active | Last Used: 2024-12-17T09:24:00+00:00 | Service: sns | IP: No recent usage found
+2025-02-13 11:06:15 - Checking Access Key: AKIAZLVTXQTPF4DZPC6P for user devops
+2025-02-13 11:06:18 - ✅ User: devops | Key: AKIAZLVTXQTPF4DZPC6P | Status: Active | Last Used: 2024-04-18T13:53:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-13 11:06:18 - Processing IAM user: devops-cicd-eks
+2025-02-13 11:06:19 - Checking Access Key: AKIAZLVTXQTPEXHGR4XT for user devops-cicd-eks
+2025-02-13 11:06:22 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPEXHGR4XT | Status: Active | Last Used: 2025-02-13T05:27:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-13 11:06:22 - Checking Access Key: AKIAZLVTXQTPJHTLNPVJ for user devops-cicd-eks
+2025-02-13 11:06:25 - ✅ User: devops-cicd-eks | Key: AKIAZLVTXQTPJHTLNPVJ | Status: Active | Last Used: 2025-02-13T05:31:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-13 11:06:25 - Processing IAM user: devsecops
+2025-02-13 11:06:27 - Checking Access Key: AKIAZLVTXQTPIRGAMC5A for user devsecops
+2025-02-13 11:06:30 - ✅ User: devsecops | Key: AKIAZLVTXQTPIRGAMC5A | Status: Active | Last Used: 2025-01-11T08:01:00+00:00 | Service: sts | IP: No recent usage found
+2025-02-13 11:06:30 - Checking Access Key: AKIAZLVTXQTPMX2KZHQ6 for user devsecops
+2025-02-13 11:06:33 - ✅ User: devsecops | Key: AKIAZLVTXQTPMX2KZHQ6 | Status: Active | Last Used: 2024-10-28T12:11:00+00:00 | Service: eks | IP: No recent usage found
+2025-02-13 11:06:33 - Processing IAM user: GCP-s3-access
+2025-02-13 11:06:34 - Checking Access Key: AKIAZLVTXQTPEREVSW65 for user GCP-s3-access
+2025-02-13 11:06:37 - ✅ User: GCP-s3-access | Key: AKIAZLVTXQTPEREVSW65 | Status: Active | Last Used: 2025-02-13T05:19:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-13 11:06:37 - Processing IAM user: ksb
+2025-02-13 11:06:39 - Checking Access Key: AKIAZLVTXQTPJLZ2RM2D for user ksb
+2025-02-13 11:06:42 - ✅ User: ksb | Key: AKIAZLVTXQTPJLZ2RM2D | Status: Active | Last Used: 2024-12-16T13:14:00+00:00 | Service: rekognition | IP: No recent usage found
+2025-02-13 11:06:42 - Checking Access Key: AKIAZLVTXQTPI3YLMMOC for user ksb
+2025-02-13 11:06:45 - ✅ User: ksb | Key: AKIAZLVTXQTPI3YLMMOC | Status: Active | Last Used: 2024-12-20T09:08:00+00:00 | Service: rekognition | IP: No recent usage found
+2025-02-13 11:06:45 - Processing IAM user: runpod
+2025-02-13 11:06:46 - Checking Access Key: AKIAZLVTXQTPC3TVYODR for user runpod
+2025-02-13 11:06:49 - ✅ User: runpod | Key: AKIAZLVTXQTPC3TVYODR | Status: Active | Last Used: 2025-02-13T05:32:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-13 11:06:49 - Processing IAM user: runpod-v2
+2025-02-13 11:06:51 - Checking Access Key: AKIAZLVTXQTPKAF5SHPS for user runpod-v2
+2025-02-13 11:06:53 - ✅ User: runpod-v2 | Key: AKIAZLVTXQTPKAF5SHPS | Status: Active | Last Used: 2024-08-28T13:55:00+00:00 | Service: s3 | IP: No recent usage found
+2025-02-13 11:06:53 - Processing IAM user: test-key-rotation
+2025-02-13 11:06:55 - Checking Access Key: AKIAZLVTXQTPAFATDX6V for user test-key-rotation
+2025-02-13 11:06:58 - ✅ User: test-key-rotation | Key: AKIAZLVTXQTPAFATDX6V | Status: Active | Last Used: Never Used | Service: N/A | IP: No recent usage found
+2025-02-13 11:06:58 - Processing IAM user: yt-download-temp-s3
+2025-02-13 11:06:59 - Checking Access Key: AKIAZLVTXQTPMNV7RH4G for user yt-download-temp-s3
+2025-02-13 11:07:02 - ✅ User: yt-download-temp-s3 | Key: AKIAZLVTXQTPMNV7RH4G | Status: Active | Last Used: Never Used | Service: N/A | IP: No recent usage found
+2025-02-13 11:07:02 - Generating HTML report...
+2025-02-13 11:07:02 - ✅ AWS Access Key Audit Completed. Report saved to access_key_usage.html

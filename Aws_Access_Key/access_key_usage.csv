@@ -1,0 +1,16 @@
+IAM User,Access Key ID,Status,Last Used Date,Service Used,Region,IP Address
+bedrock,AKIAZLVTXQTPPPAIBZUQ,Active,2025-02-13T05:31:00+00:00,bedrock,us-east-1,No recent usage found
+client-s3,AKIAZLVTXQTPAXB6UK6W,Active,2024-02-14T12:54:00+00:00,s3,ap-south-1,No recent usage found
+devops,AKIAZLVTXQTPKJ7M6RGK,Active,2024-12-17T09:24:00+00:00,sns,ap-south-1,No recent usage found
+devops,AKIAZLVTXQTPF4DZPC6P,Active,2024-04-18T13:53:00+00:00,s3,ap-south-1,No recent usage found
+devops-cicd-eks,AKIAZLVTXQTPEXHGR4XT,Active,2025-02-13T05:27:00+00:00,sts,ap-south-1,No recent usage found
+devops-cicd-eks,AKIAZLVTXQTPJHTLNPVJ,Active,2025-02-13T05:31:00+00:00,s3,ap-south-1,No recent usage found
+devsecops,AKIAZLVTXQTPIRGAMC5A,Active,2025-01-11T08:01:00+00:00,sts,ap-south-1,No recent usage found
+devsecops,AKIAZLVTXQTPMX2KZHQ6,Active,2024-10-28T12:11:00+00:00,eks,ap-south-1,No recent usage found
+GCP-s3-access,AKIAZLVTXQTPEREVSW65,Active,2025-02-13T05:19:00+00:00,s3,ap-south-1,No recent usage found
+ksb,AKIAZLVTXQTPJLZ2RM2D,Active,2024-12-16T13:14:00+00:00,rekognition,ap-south-1,No recent usage found
+ksb,AKIAZLVTXQTPI3YLMMOC,Active,2024-12-20T09:08:00+00:00,rekognition,us-west-2,No recent usage found
+runpod,AKIAZLVTXQTPC3TVYODR,Active,2025-02-13T05:32:00+00:00,s3,ap-south-1,No recent usage found
+runpod-v2,AKIAZLVTXQTPKAF5SHPS,Active,2024-08-28T13:55:00+00:00,s3,ap-south-1,No recent usage found
+test-key-rotation,AKIAZLVTXQTPAFATDX6V,Active,Never Used,N/A,N/A,No recent usage found
+yt-download-temp-s3,AKIAZLVTXQTPMNV7RH4G,Active,Never Used,N/A,N/A,No recent usage found
